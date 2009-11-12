@@ -42,6 +42,7 @@
 
 2007년 10월
 :   [닐슨 코리안클릭][kc] 입사. 산업기능요원으로 복무
+
 :   [서치안][searchian] 운영 및 개발 (Python, Oracle, SQLAlchemy, jQuery)
 
 2007년 11월
