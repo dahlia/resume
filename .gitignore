@@ -1,1 +1,4 @@
-index.{html,rtf,txt}
+.*.swp
+index.html
+index.odt
+index.txt
