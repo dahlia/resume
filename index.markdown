@@ -10,6 +10,9 @@
 이메일 주소
 :   <minhee+resume@dahlia.kr>
 
+전화 번호
+:   010-3229-7392
+
 홈페이지
 :   <http://dahlia.kr/>
 
