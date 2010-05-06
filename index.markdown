@@ -143,6 +143,17 @@
   [vlaah]: http://www.vlaah.com/
 
 
+### [Pastedown][] ###
+
+Markdown 문서 전용 붙여넣기(pastebin) 서비스입니다. Google App Engine 플랫폼에서
+동작하며, AGPL 라이센스로 [소스 코드][pastedown-code]를 공개했습니다.
+
+관련 포스팅: <http://blog.dahlia.kr/post/432774871>
+
+  [pastedown]: http://pastedown.lunant.net/
+  [pastedown-code]: http://bitbucket.org/lunant/pastedown
+
+
 ### [VLAAH-Ruby][] ###
 
 Ruby용 VLAAH API 클라이언트 라이브러리입니다. `Enumerable`을 구현하여
