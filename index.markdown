@@ -62,6 +62,16 @@
 :   IBM developerWorks 세미나 ['생산적인 개발 노하우 나누기' & '개발자들의
     수다'][dwlive-0905] 페차쿠차 발표: ["API로 개발 날로먹기"][dwlive-0905-p]
 
+2009년 12월
+:   IBM developerWorks 세미나 ['웹 개발 다반사'][dwlive-1205] 페차쿠차 발표:
+    ["괜찮은 오픈 API 제공하기 + VLAAH API 소개"][dwlive-1205-p]
+
+2010년 2월
+:   [씨디네트웍스][cdnetworks] 입사
+
+2010년 3월
+:   [보노보나잇][bonobonight]에서 [VLAAH를 주제로 말표][bonobonight-p]
+
   [olaworks]: http://www.olaworks.com/
   [olalog]: http://olalog.com/
   [kc]: http://koreanclick.com/
@@ -72,6 +82,11 @@
   [woc-2008-vlastic]: http://blog.dahlia.pe.kr/articles/2008/12/21/woc-python-30%ec%9c%bc%eb%a1%9c-%eb%a7%8c%eb%93%9c%eb%8a%94-%ea%b2%bd%eb%9f%89-%ec%9b%b9-%ed%94%84%eb%a0%88%ec%9e%84%ec%9b%8c%ed%81%ac
   [dwlive-0905]: http://www.ibm.com/developerworks/kr/event/seminar/dwlive_0905/index.html
   [dwlive-0905-p]: http://blog.dahlia.pe.kr/articles/2009/06/28/api%eb%a1%9c-%ea%b0%9c%eb%b0%9c-%ec%95%bc%eb%b9%84%ed%95%98%ea%b2%8c-%eb%82%a0%eb%a1%9c%eb%a8%b9%ea%b8%b0
+  [dwlive-1205]: http://www.ibm.com/developerworks/kr/event/seminar/dwlive_1205/
+  [dwlive-1205-p]: http://blog.dahlia.pe.kr/articles/2009/12/06/%EA%B4%9C%EC%B0%AE%EC%9D%80-%EC%98%A4%ED%94%88-api-%EC%A0%9C%EA%B3%B5%ED%95%98%EA%B8%B0-vlaah-api-%EC%86%8C%EA%B0%9C
+  [cdnetworks]: http://cdnetworks.com/
+  [bonobonight]: http://bonobonight.tumblr.com/
+  [bonobonight-p]: http://blog.dahlia.kr/post/473660929
 
 
 특기 및 보유 기술
@@ -159,6 +174,16 @@ PHP로 구현한 Lisp 언어 구현입니다. 평가기(evaluator)를 구현했�
   [lisphp]: http://github.com/dahlia/lisphp
 
 
+### [Rocketdive][] ###
+
+Python에 익숙하지 않은 사람이 Python으로 웹 개발을 하기 쉽도록 도와주는 GUI
+프론트엔드입니다. [WSGI][] 컨테이너인 [Rocket]에 대한 GUI를 제공합니다.
+
+ [rocketdive]: http://pypi.python.org/pypi/rocketdive/
+ [wsgi]: http://www.python.org/dev/peps/pep-0333/
+ [rocket]: http://pypi.python.org/pypi/rocket/
+
+
 ### Phunctional ###
 
 PHP에서 함수 객체(function object), 람다(lambda), 클로져(closure), 고차
@@ -185,6 +210,15 @@ Haskell로 작성된 마크업 포맷 변환 유틸리티인 [Pandoc][]의 Ruby 
 
   [pandoku]: http://github.com/dahlia/pandoku
   [pandoc]: http://johnmacfarlane.net/pandoc/
+
+
+### [mockcache][] ###
+
+딕셔너리 기반의 memcached 목 클라이언트 라이브러리입니다.
+
+관련 포스팅: <http://blog.dahlia.kr/post/488743743>
+
+  [mockcache]: http://pypi.python.org/pypi/mockcache/
 
 
 ### [Readown][] ###
