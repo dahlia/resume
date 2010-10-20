@@ -72,6 +72,12 @@
 2010년 3월
 :   [보노보나잇][bonobonight]에서 [VLAAH를 주제로 말표][bonobonight-p]
 
+2010년 5월
+:   지식경제부 및 정보통신산업진흥원 주최 [소프트웨어 마에스트][swmaestro]로 과정 사업 멘토로 참여
+
+2010년 9월
+:   [씨디네트웍스][cdnetworks] 퇴사
+
   [olaworks]: http://www.olaworks.com/
   [olalog]: http://olalog.com/
   [kc]: http://koreanclick.com/
@@ -87,6 +93,7 @@
   [cdnetworks]: http://cdnetworks.com/
   [bonobonight]: http://bonobonight.tumblr.com/
   [bonobonight-p]: http://blog.dahlia.kr/post/473660929
+  [swmaestro]: http://swmaestro.kr/
 
 
 특기 및 보유 기술
