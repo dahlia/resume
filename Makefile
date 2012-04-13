@@ -1,19 +1,19 @@
 
 PANDOC=pandoc
 
-all: index
+all: resume
 
-index: index.txt index.html index.odt
+resume: resume.txt index.html resume.odt
 
-index.txt: index.markdown
-	cp index.markdown index.txt
+resume.txt: resume.rst
+	cp resume.rst resume.txt
 
-index.html: index.markdown footer.html style.css
-	$(PANDOC) -f markdown -t html -s -S -A footer.html -T Resume \
-              -c style.css -o index.html index.txt
+index.html: resume.rst style.css
+	$(PANDOC) --base-header=2 -f rst -t html -s -S -c style.css \
+	          -o index.html resume.rst
 
-index.odt: index.markdown
-	$(PANDOC) -f markdown -t odt -o index.odt index.txt
+resume.odt: resume.rst
+	$(PANDOC) -f rst -t odt -o resume.odt resume.txt
 
 clean:
-	rm index.txt index.html index.odt
+	rm resume.txt index.html resume.odt
