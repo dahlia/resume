@@ -171,7 +171,7 @@ Open Source Projects
 2009--2010 Lisphp_
    Lisp dialect written in PHP.
 
-The above list contain only representative project founded by me.
+The above list contains only representative projects founded by me.
 My detailed open source activities can be found in my GitHub_ and Bitbucket_.
 
 .. _Sider: https://bitbucket.org/dahlia/sider
