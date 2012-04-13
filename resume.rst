@@ -161,7 +161,7 @@ Open Source Projects
    Persistent object library based on Redis.
 
 2011-- Wand_
-   ``ctypes``-based simple ImageMaigck_ (a widely-used image processing
+   ``ctypes``-based simple ImageMagick_ (a widely-used image processing
    library) binding for Python.
 
 2011 futureutils_
