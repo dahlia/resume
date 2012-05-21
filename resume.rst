@@ -175,7 +175,7 @@ The above list contains only representative projects founded by me.
 My detailed open source activities can be found in my GitHub_ and Bitbucket_.
 
 .. _Sider: https://bitbucket.org/dahlia/sider
-.. _Wand: http://styleshare.github.com/wand/
+.. _Wand: http://dahlia.github.com/wand/
 .. _ImageMagick: http://www.imagemagick.org/
 .. _futureutils: http://dahlia.bitbucket.org/futureutils/
 .. _Lisphp: https://github.com/lunant/lisphp
