@@ -62,6 +62,12 @@ Mentoring
 Employment
 ----------
 
+2012 Tipforest_
+   Tipforst is a collaboratively edited open database project.
+
+   Worked as programmer.
+   [Technologies: Python, Django_, Jinja_, PostgreSQL_, Heroku_]
+
 2011-2012 StyleShare_
    StyleShare is a social network service for fashion lovers.
 
@@ -124,6 +130,9 @@ Employment
 
    Retired to do liability for military service.
 
+.. _Tipforest: http://www.tipforest.com/
+.. _Django: http://www.djangoproject.com/
+.. _Heroku: http://www.heroku.com/
 .. _StyleShare: https://stylesha.re/
 .. _Flask: http://flask.pocoo.org/
 .. _gevent: http://gevent.org/
@@ -178,7 +187,7 @@ My detailed open source activities can be found in my GitHub_ and Bitbucket_.
 .. _Wand: http://dahlia.github.com/wand/
 .. _ImageMagick: http://www.imagemagick.org/
 .. _futureutils: http://dahlia.bitbucket.org/futureutils/
-.. _Lisphp: https://github.com/lunant/lisphp
+.. _Lisphp: https://github.com/dahlia/lisphp
 .. _GitHub: https://github.com/dahlia
 .. _Bitbucket: http://bitbucket.org/dahlia
 
@@ -186,7 +195,7 @@ My detailed open source activities can be found in my GitHub_ and Bitbucket_.
 Other Activities
 ----------------
 
-2008--
+2008-- 
    Founder of LangDev_, a forum for programming language designers and
    compiler implementors.
 
