@@ -193,6 +193,9 @@ Employment
 Open Source Projects
 --------------------
 
+2012-- libsass-python_
+   SCSS_ for Python.
+
 2012-- Sider_
    Persistent object library based on Redis.
 
@@ -210,6 +213,7 @@ Open Source Projects
 The above list contains only representative projects founded by me.
 My detailed open source activities can be found in my GitHub_ and Bitbucket_.
 
+.. _libsass-python: https://github.com/dahlia/libsass-python
 .. _Sider: https://github.com/dahlia/sider
 .. _Wand: http://dahlia.github.com/wand/
 .. _ImageMagick: http://www.imagemagick.org/
