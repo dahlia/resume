@@ -68,7 +68,7 @@ Employment
    Worked as programmer.
    [Technologies: Python, Django_, Jinja_, PostgreSQL_, Heroku_]
 
-2011-2012 StyleShare_
+2011--2012 StyleShare_
    StyleShare is a social network service for fashion lovers.
 
    Worked as CTO.
