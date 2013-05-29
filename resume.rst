@@ -62,6 +62,15 @@ Mentoring
 Employment
 ----------
 
+2012--2013 Crosspop_
+   Crosspop is a social platform where anyone can enjoy creating comics/mangas,
+   share and browse them, and connect with other artists and enthusiasts.
+
+   Self-employed as a founder.
+   [Technologies: Python, Flask_, SQLAlchemy_, Celery_, PostgreSQL_,
+   Memcached_, jQuery, SCSS_, Fabric_, Linux, `Amazon Web Services`_
+   (EC2_, S3_, SQS_, ElastiCache_, SES_, `Route 53`_, CloudFront_)]
+
 2012 Tipforest_
    Tipforst is a collaboratively edited open database project.
 
@@ -131,6 +140,10 @@ Employment
    Retired to do liability for military service.
 
 .. _Celery: http://www.celeryproject.org/
+.. _SQS: https://aws.amazon.com/sqs/
+.. _ElastiCache: https://aws.amazon.com/elasticache/
+.. _Crosspop: http://crosspop.in/
+.. _SES: https://aws.amazon.com/ses/
 .. _Tipforest: http://www.tipforest.com/
 .. _Django: http://www.djangoproject.com/
 .. _Heroku: http://www.heroku.com/
