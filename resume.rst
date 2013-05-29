@@ -72,8 +72,8 @@ Employment
    StyleShare is a social network service for fashion lovers.
 
    Worked as CTO.
-   [Technologies: Python, Flask_, SQLAlchemy_, gevent_, PostgreSQL_,
-   Memcached_, jQuery, SCSS_, Fabric_, Linux,
+   [Technologies: Python, Flask_, SQLAlchemy_, Celery_, gevent_, PostgreSQL_,
+   RabbitMQ_, Memcached_, jQuery, SCSS_, Fabric_, Linux,
    `Amazon Web Services`_ (EC2_, S3_, `Route 53`_, CloudFront_)]
 
 2011 Olaworks_
@@ -130,6 +130,7 @@ Employment
 
    Retired to do liability for military service.
 
+.. _Celery: http://www.celeryproject.org/
 .. _Tipforest: http://www.tipforest.com/
 .. _Django: http://www.djangoproject.com/
 .. _Heroku: http://www.heroku.com/
@@ -139,6 +140,7 @@ Employment
 .. _SQLAlchemy: http://sqlalchemy.org/
 .. _memcached: http://memcached.org/
 .. _PostgreSQL: http://postgresql.org/
+.. _RabbitMQ: http://www.rabbitmq.com/
 .. _SCSS: http://sass-lang.com/
 .. _Fabric: http://fabfile.org/
 .. _Amazon Web Services: http://aws.amazon.com/
