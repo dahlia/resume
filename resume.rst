@@ -62,6 +62,17 @@ Mentoring
 Employment
 ----------
 
+2013 `The Beatpacking Company`_
+   Wroked as programmer.
+
+   Android application.
+   [Technologies: Java]
+
+   Backend server.
+   [Technologies: Python, Flask_, SQLAlchemy_, Celery_, PostgreSQL_, Fabric_,
+   Linux, `Amazon Web Services`_ (EC2_, S3_, SQS_, ElastiCache_, `Route 53`_,
+   CloudFront_)]
+
 2012--2013 Crosspop_
    Crosspop is a social platform where anyone can enjoy creating comics/mangas,
    share and browse them, and connect with other artists and enthusiasts.
@@ -139,6 +150,7 @@ Employment
 
    Retired to do liability for military service.
 
+.. _The Beatpacking Company: http://beatpacking.com/
 .. _Celery: http://www.celeryproject.org/
 .. _SQS: https://aws.amazon.com/sqs/
 .. _ElastiCache: https://aws.amazon.com/elasticache/
