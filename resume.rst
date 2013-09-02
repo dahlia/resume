@@ -63,7 +63,7 @@ Employment
 ----------
 
 2013 `The Beatpacking Company`_
-   Wroked as programmer.
+   Worked as programmer.
 
    Android application.
    [Technologies: Java]
@@ -83,7 +83,7 @@ Employment
    (EC2_, S3_, SQS_, ElastiCache_, SES_, `Route 53`_, CloudFront_)]
 
 2012 Tipforest_
-   Tipforst is a collaboratively edited open database project.
+   Tipforest is a collaboratively edited open database project.
 
    Worked as programmer.
    [Technologies: Python, Django_, Jinja_, PostgreSQL_, Heroku_]
