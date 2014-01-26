@@ -63,10 +63,12 @@ Employment
 ----------
 
 2013 `The Beatpacking Company`_
-   Worked as programmer.
+   Built Beat_, and Android music player app that helps you not only to listen
+   to music on your smartphone, but to make playlists on your own by finding
+   your favorite songs.
 
    Android application.
-   [Technologies: Java]
+   [Technologies: Java, Android, Maven_]
 
    Backend server.
    [Technologies: Python, Flask_, SQLAlchemy_, Celery_, PostgreSQL_, Redis_,
@@ -151,6 +153,8 @@ Employment
    Retired to do liability for military service.
 
 .. _The Beatpacking Company: http://beatpacking.com/
+.. _Beat: https://play.google.com/store/apps/details?id=com.beatpacking.beat
+.. _Maven: http://maven.apache.org/
 .. _Celery: http://www.celeryproject.org/
 .. _SQS: https://aws.amazon.com/sqs/
 .. _ElastiCache: https://aws.amazon.com/elasticache/
