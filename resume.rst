@@ -210,6 +210,10 @@ Employment
 Open Source Projects
 --------------------
 
+2013-- `Earth Reader`_
+   News reader that is possible to run on various devices and be synchronized
+   without any particular centralized proprietary services.
+
 2012-- Asuka_
    Deployment system for Python web apps using GitHub and
    `Amazon Web Services`_.
@@ -234,6 +238,7 @@ Open Source Projects
 The above list contains only representative projects founded by me.
 My detailed open source activities can be found in my GitHub_ and Bitbucket_.
 
+.. _Earth Reader: http://earthreader.org/
 .. _Asuka: https://github.com/crosspop/asuka
 .. _libsass-python: https://github.com/dahlia/libsass-python
 .. _Sider: https://github.com/dahlia/sider
