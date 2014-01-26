@@ -69,9 +69,9 @@ Employment
    [Technologies: Java]
 
    Backend server.
-   [Technologies: Python, Flask_, SQLAlchemy_, Celery_, PostgreSQL_, Fabric_,
-   Linux, `Amazon Web Services`_ (EC2_, S3_, SQS_, ElastiCache_, `Route 53`_,
-   CloudFront_)]
+   [Technologies: Python, Flask_, SQLAlchemy_, Celery_, PostgreSQL_, Redis_,
+   Fabric_, Linux, `Amazon Web Services`_ (EC2_, S3_, SQS_, ElastiCache_,
+   `Route 53`_, CloudFront_)]
 
 2012--2013 Crosspop_
    Crosspop is a social platform where anyone can enjoy creating comics/mangas,
@@ -93,7 +93,7 @@ Employment
 
    Worked as CTO.
    [Technologies: Python, Flask_, SQLAlchemy_, Celery_, gevent_, PostgreSQL_,
-   RabbitMQ_, Memcached_, jQuery, SCSS_, Fabric_, Linux,
+   RabbitMQ_, Memcached_, Redis_, jQuery, SCSS_, Fabric_, Linux,
    `Amazon Web Services`_ (EC2_, S3_, `Route 53`_, CloudFront_)]
 
 2011 Olaworks_
@@ -165,6 +165,7 @@ Employment
 .. _SQLAlchemy: http://sqlalchemy.org/
 .. _memcached: http://memcached.org/
 .. _PostgreSQL: http://postgresql.org/
+.. _Redis: http://redis.io/
 .. _RabbitMQ: http://www.rabbitmq.com/
 .. _SCSS: http://sass-lang.com/
 .. _Fabric: http://fabfile.org/
