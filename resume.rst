@@ -29,14 +29,13 @@ Interests
      effectively maintaining conventions, continuous integration.
 
 Skills
-   - Languages: Python, C/C++, Ruby, JavaScript, PHP, bash
-   - Web Frameworks: Flask, Werkzeug, Jinja, Rails, LESS/SCSS
+   - Languages: Python, C/C++, Java, JavaScript, PHP, SQL, bash
+   - Web Frameworks: Flask, Werkzeug, Jinja, Django, Rails, LESS/SCSS
    - XML Technologies: SAX, DOM, XPath, XSLT, lxml, libxml
-   - Databases: PostgreSQL, Oracle, Redis, Memcached, Membase, Tokyo Cabinet,
-     SQLite, MySQL, SQLAlchemy
+   - Databases: PostgreSQL, Oracle, Redis, Memcached, SQLite, MySQL, SQLAlchemy
    - Network Programming Libraries: gevent, eventlet, Tornado
-   - Web Servers: Nginx, Apache, Green Unicorn
-   - Tools: Vim, Mercurial (including internal API), Git, Subversion
+   - Web Servers: Nginx, Apache
+   - Tools: Vim, Git, Mercurial (including internal API), Subversion
 
 
 Education
