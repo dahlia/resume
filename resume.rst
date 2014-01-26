@@ -214,7 +214,7 @@ Open Source Projects
    Deployment system for Python web apps using GitHub and
    `Amazon Web Services`_.
 
-2012-- libsass-python_
+2012-- `libsass-python`_
    SCSS_ for Python.
 
 2012-- Sider_
