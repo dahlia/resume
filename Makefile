@@ -19,10 +19,11 @@ clean:
 	rm resume.txt index.html resume.odt
 
 publish: resume
-	git clone -b gh-pages git@github.com:dahlia/resume.git __tmp__
-	cp resume.rst index.html resume.txt resume.odt __tmp__/
-	pushd __tmp__; \
+	rm -rf /tmp/resume/
+	git clone -b gh-pages git@github.com:dahlia/resume.git /tmp/resume/
+	cp resume.rst index.html resume.txt resume.odt /tmp/resume/
+	cd /tmp/resume; \
 	git add -f resume.rst index.html resume.txt resume.odt; \
 	git commit -am "Publish"; \
-	git push git@github.com:dahlia/resume.git gh-pages:gh-pages
-	rm -rf __tmp__
+	git push -f git@github.com:dahlia/resume.git gh-pages:gh-pages
+	rm -rf /tmp/resume
