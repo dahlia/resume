@@ -62,6 +62,16 @@ Mentoring
 Employment
 ----------
 
+2014-- Spoqa_
+   Maintained Dodo_, an extremely simple iPad based customer loyalty and
+   marketing platform for local merchants and stores. Merchants can market
+   to customers via the Dodo platform when they check in with their phone
+   number at the counter.
+
+   Backend server.
+   [Technologies: Python, Flask_, SQLAlchemy_, Celery_, PostgreSQL_, Redis_,
+   Fabric_, Linux]
+
 2013 `The Beatpacking Company`_
    Built Beat_, and Android music player app that helps you not only to listen
    to music on your smartphone, but to make playlists on your own by finding
@@ -152,6 +162,8 @@ Employment
 
    Retired to do liability for military service.
 
+.. _Spoqa: http://www.spoqa.com/
+.. _Dodo: http://dodopoint.com/
 .. _The Beatpacking Company: http://beatpacking.com/
 .. _Beat: https://play.google.com/store/apps/details?id=com.beatpacking.beat
 .. _Maven: http://maven.apache.org/
