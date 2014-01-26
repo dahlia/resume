@@ -18,6 +18,7 @@ Summary
 -------
 
 Interests
+   - Free and open source software.
    - Network programming: implementing asynchronous event driven servers
      and clients.
    - Domain-specific languages, minimal scripting languages: implementing
