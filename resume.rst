@@ -210,6 +210,10 @@ Employment
 Open Source Projects
 --------------------
 
+2014-- Geofront_
+   Simple SSH key management service which helps to maintain servers to
+   SSH, and ``authorized_keys`` list for them.
+
 2013-- `Earth Reader`_
    News reader that is possible to run on various devices and be synchronized
    without any particular centralized proprietary services.
@@ -238,6 +242,7 @@ Open Source Projects
 The above list contains only representative projects founded by me.
 My detailed open source activities can be found in my GitHub_ and Bitbucket_.
 
+.. _Geofront: https://github.com/spoqa/geofront
 .. _Earth Reader: http://earthreader.org/
 .. _Asuka: https://github.com/crosspop/asuka
 .. _libsass-python: https://github.com/dahlia/libsass-python
