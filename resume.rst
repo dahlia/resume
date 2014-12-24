@@ -5,7 +5,7 @@ Personal Details
 ----------------
 
 Email
-   minhee+resume@dahlia.kr
+   hongminhee@member.fsf.org
 
 Website
    http://hongminhee.org/
