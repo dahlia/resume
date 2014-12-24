@@ -1,5 +1,5 @@
-Hong Minhee --- Résumé
-======================
+Hong Minhee --- Curriculum vitae
+================================
 
 Personal Details
 ----------------
