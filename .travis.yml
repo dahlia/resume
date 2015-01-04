@@ -17,7 +17,7 @@ after_success:
   git config user.email "`cat /tmp/resume-author-email`";
   git rm -r .;
   popd
-- cp resume.rst index.html resume.txt resume.odt /tmp/resume-out/
+- cp resume.rst index.html style.css resume.txt resume.odt /tmp/resume-out/
 - cd /tmp/resume-out/;
   git add .;
   git commit -a -F /tmp/resume-commit;

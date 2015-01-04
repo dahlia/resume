@@ -1,3 +1,18 @@
-body { width: 500px; margin: auto; }
-h1, h2, h3, h4, h5, h6 { font-family: sans-serif; }
-dl dt { font-weight: bolder; font-family: sans-serif; }
+* { font-family: 'Times New Roman', serif; }
+body {
+  font-size: large;
+  line-height: 1.3;
+  margin: 0 0 0 180px;
+  max-width: 600px;
+  padding: 1em 1em 0 65px;
+}
+h1 { margin: 0; }
+h2, h3, h4, h5, h6 { font-weight: normal; }
+
+#personal-details + dl > dt:after { content: ':'; }
+#personal-details + dl > dd {
+  line-height: 0;
+  margin-left: 5rem;
+  margin-top: -2rem;
+  position: absolute;
+}
