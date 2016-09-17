@@ -5,7 +5,7 @@ Personal Details
 ----------------
 
 Email
-   hongminhee@member.fsf.org
+   hong.minhee@gmail.com
 
 Website
    https://hongminhee.org/
