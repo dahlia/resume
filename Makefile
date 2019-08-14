@@ -1,19 +1,24 @@
 
 PANDOC=pandoc
 
-all: resume
+all: public
 
-resume: resume.txt index.html resume.pdf
+public: public/resume.txt public/index.html public/resume.pdf
 
-resume.txt: resume.rst
-	cp resume.rst resume.txt
+public/resume.txt: resume.rst
+	mkdir -p public
+	cp resume.rst public/resume.txt
 
-index.html: resume.rst style.css
+public/style.css: style.css
+	cp style.css public/style.css
+
+public/index.html: public/resume.txt public/style.css
 	$(PANDOC) --base-header=2 -f rst+smart -t html -s -c style.css \
-	          -o index.html resume.rst
+	          -o public/index.html public/resume.txt
 
-resume.pdf: resume.rst
-	$(PANDOC) -f rst+smart -o resume.pdf --pdf-engine=weasyprint resume.rst
+public/resume.pdf: public/resume.txt
+	$(PANDOC) -f rst+smart --pdf-engine=weasyprint -o public/resume.pdf \
+			  public/resume.txt
 
 clean:
-	rm resume.txt index.html resume.pdf
+	rm -rf public

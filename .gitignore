@@ -1,7 +1,4 @@
 .*.swp
 html2pdf*.html
-index.html
-resume.odt
-resume.pdf
-resume.txt
+public/
 __tmp__

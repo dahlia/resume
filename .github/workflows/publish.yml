@@ -1,0 +1,32 @@
+name: Publish
+on: [push]
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Build
+      run: |
+        apt-get update -y
+        apt-get install -y pandoc \
+          build-essential python3-dev python3-pip python3-setuptools \
+          python3-wheel python3-cffi libcairo2 libpango-1.0-0 \
+          libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info
+        pip3 install WeasyPrint==48
+        make
+
+    - name: Publish
+      uses: maxheld83/ghpages@v0.2.1
+      env:
+        BUILD_DIR: public/
+        GH_PAT: ${{ secrets.GH_PAT }}
+
+    - name: Trigger GitHub Pages Build
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }}
+      run: |
+        curl -X POST \
+             -H "Authorization: token $GH_PAT" \
+             -H "Accept: application/vnd.github.mister-fantastic-preview+json" \
+             "https://api.github.com/repos/$GITHUB_REPOSITORY/pages/builds"
