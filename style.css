@@ -18,8 +18,8 @@ body {
 h1 { margin: 0; }
 h2, h3, h4, h5, h6 { font-weight: normal; }
 
-header + h2 + dl > dt:after { content: ':'; }
-header + h2 + dl > dd {
+header + h2:first-of-type + dl > dt:after { content: ':'; }
+header + h2:first-of-type + dl > dd {
   line-height: 0;
   margin-left: 5rem;
   margin-top: -2.6rem;
