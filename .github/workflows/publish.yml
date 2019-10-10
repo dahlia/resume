@@ -18,6 +18,10 @@ jobs:
           libpangocairo-1.0-0 libgdk-pixbuf2.0-0 libffi-dev shared-mime-info \
           fonts-noto-cjk
         pip3 install --user WeasyPrint==48
+        pushd $HOME/.local/bin
+        curl -L https://github.com/dahlia/seonbi/releases/download/0.1.1/seonbi-0.1.1.linux-x86_64.tar.bz2 \
+        | tar xvfj -
+        popd
         export PATH="$HOME/.local/bin:$PATH"
         make
 

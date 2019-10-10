@@ -1,6 +1,6 @@
 
 PANDOC:=$(shell which pandoc)
-SEONBI:=$(or $(shell which seonbi),bin/seonbi-$(shell uname -s | tr A-Z a-z)-$(shell uname -m | tr A-Z a-z))
+SEONBI:=$(shell which seonbi)
 
 languages = en ko
 
