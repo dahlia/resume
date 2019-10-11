@@ -1,0 +1,33 @@
+* {
+  font-family: 'Lucida Bright', 'Times New Roman', Times, serif;
+  line-height: 1.3;
+}
+*:lang(ko) {
+  font-family: 'Noto Serif CJK KR', AppleMyungjo, '바탕', Batang, serif;
+}
+body {
+  margin: auto;
+}
+@media screen {
+  body {
+    font-size: large;
+    max-width: 700px;
+    padding: 1em 1em;
+  }
+}
+h1 { margin: 0; }
+h2, h3, h4, h5, h6 { font-weight: normal; }
+
+header + h2:first-of-type + dl > dt:after { content: ':'; }
+header + h2:first-of-type + dl > dd {
+  line-height: 0;
+  margin-left: 5rem;
+  margin-top: -2.6rem;
+  position: absolute;
+}
+
+@media print {
+  header + h2 + dl > dd {
+    padding-top: 5px;
+  }
+}
