@@ -34,8 +34,9 @@ $(foreach lang,$(languages),public/$(lang)/index.html): public/%/index.html: pub
 		-t html \
 		-s \
 		-c ../style.css \
-		-M lang=$(shell basename -s .rst $(shell dirname "$<")) \
+		-M lang=$(shell basename $(shell dirname "$<")) \
 		-o $@ $<
+	$(foreach lang,$(languages),[[ $(shell basename $(shell dirname "$<")) = "$(lang)" ]] || sed -i 's|</head>|<link rel="alternate" hreflang="$(lang)" href="../$(lang)/"/></head>|' $@;)
 
 $(foreach lang,$(languages),public/$(lang)/resume.pdf): public/%/resume.pdf: public/%/resume.txt public/style.css
 	$(PANDOC) \
