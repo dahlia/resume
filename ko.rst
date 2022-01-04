@@ -22,6 +22,7 @@
 
 關心事
    - 自由·오픈 소스 소프트웨어: 多樣한 F/OSS 作成
+   - 脫中央 시스템: P2P 네트워크, 비잔틴 합의, 블록체인
    - 네트워크 프로그래밍: 非同期 이벤트 드리븐 서버 및
      클라이언트 具顯
    - 도메인 特化 言語: DSL 設計 및 具顯
@@ -29,14 +30,16 @@
      抽象 資料型(ADT), 靜的 타입 言語에 익숙함
    - 테스트 自動化: 單位 테스트, 프로퍼티 基盤 테스트,
      統合 테스트
+   - 소프트웨어 國際化 및 現地化: 飜譯, 유니코드, 유니코드 CLDR,
+     유니코드 漢字 데이터베이스, CJK 全般
    - 技術 글쓰기: 레거시 코드의 設計書 作成과 文書化
      (韓國語 및 英語)
 
 技術
-   - 言語: Python, Haskell, C#, Bash, SQL
-   - 프레임워크 및 라이브러리: Flask, Werkzeug, SQLAlchemy
-   - 데이터베이스: PostgreSQL, Redis, SQLite
-   - 其他: Neovim, Git, Mercurial
+   - 言語: C#, Haskell, Python, TypeScript, Bash, SQL
+   - 플랫폼: .NET/Mono, Deno
+   - 데이터베이: PostgreSQL, SQLite, RocksDB
+   - 其他: Neovim, Git, Mercurial, Docker
 
 
 職務 經歷
