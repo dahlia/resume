@@ -1,3 +1,15 @@
+# Prerequires (Debian):
+# - fonts-noto-cjk
+# - pandoc
+# - texlive-xetex
+# - <https://github.com/dahlia/seonbi>
+
+# Prerequisites (macOS):
+# - basictex
+# - homebrew/cask-fonts/font-noto-serif-cjk-kr
+# - gnu-sed
+# - pandoc
+# - <https://github.com/dahlia/seonbi>
 
 PANDOC:=$(shell which pandoc)
 SEONBI:=$(shell which seonbi)
@@ -29,7 +41,7 @@ public/style.css: style.css
 
 $(foreach lang,$(languages),public/$(lang)/index.html): public/%/index.html: public/%/resume.txt public/style.css
 	$(PANDOC) \
-		--base-header=2 \
+		--shift-heading-level-by=2 \
 		-f rst+smart \
 		-t html \
 		-s \
@@ -43,10 +55,10 @@ $(foreach lang,$(languages),public/$(lang)/index.html): public/%/index.html: pub
 
 $(foreach lang,$(languages),public/$(lang)/resume.pdf): public/%/resume.pdf: public/%/resume.txt public/style.css
 	$(PANDOC) \
-		--base-header=2 \
+		--shift-heading-level-by=2 \
 		-f rst+smart \
-		--pdf-engine=weasyprint \
-		--pdf-engine-opt="-sstyle.css" \
+		--pdf-engine=xelatex \
+		--variable=mainfont:"Noto Serif CJK KR" \
 		--dpi=192 \
 		-o $@ $<
 

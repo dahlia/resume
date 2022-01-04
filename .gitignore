@@ -1,4 +1,5 @@
 .*.swp
+fonts/
 html2pdf*.html
 public/
 __tmp__
