@@ -25,9 +25,3 @@ header + h2:first-of-type + dl > dd {
   margin-top: -2.6rem;
   position: absolute;
 }
-
-@media print {
-  header + h2 + dl > dd {
-    padding-top: 5px;
-  }
-}
