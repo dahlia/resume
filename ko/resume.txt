@@ -22,6 +22,7 @@
 
 관심사
    - 자유·오픈 소스 소프트웨어: 다양한 F/OSS 작성
+   - 탈중앙 시스템: P2P 네트워크, 비잔틴 합의, 블록체인
    - 네트워크 프로그래밍: 비동기 이벤트 드리븐 서버 및
      클라이언트 구현
    - 도메인 특화 언어: DSL 설계 및 구현
@@ -29,14 +30,16 @@
      추상 자료형(ADT), 정적 타입 언어에 익숙함
    - 테스트 자동화: 단위 테스트, 프로퍼티 기반 테스트,
      통합 테스트
+   - 소프트웨어 국제화 및 현지화: 번역, 유니코드, 유니코드 CLDR,
+     유니코드 한자 데이터베이스, CJK 전반
    - 기술 글쓰기: 레거시 코드의 설계서 작성과 문서화
      (한국어 및 영어)
 
 기술
-   - 언어: Python, Haskell, C#, Bash, SQL
-   - 프레임워크 및 라이브러리: Flask, Werkzeug, SQLAlchemy
-   - 데이터베이스: PostgreSQL, Redis, SQLite
-   - 기타: Neovim, Git, Mercurial
+   - 언어: C#, Haskell, Python, TypeScript, Bash, SQL
+   - 플랫폼: .NET/Mono, Deno
+   - 데이터베이: PostgreSQL, SQLite, RocksDB
+   - 기타: Neovim, Git, Mercurial, Docker
 
 
 직무 경력

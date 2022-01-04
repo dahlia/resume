@@ -1,5 +1,5 @@
-Hong Minhee --- Curriculum vitae
-================================
+Hong Minhee --- Resume
+======================
 
 Personal Details
 ----------------
@@ -19,6 +19,8 @@ Summary
 
 Interests
    - Free and open source softwares: have written many F/OSS
+   - Decentralized systems: peer-to-peer networking, Byzantine agreements, and
+     blockchains
    - Network programming: implementing asynchronous event-driven servers
      and clients
    - Domain-specific languages: designing and implementing DSLs
@@ -26,14 +28,16 @@ Interests
      recursions, deterministic functions, abstract data types,
      and statically typed languages
    - Automated tests: unit tests, property-based tests, and integration tests
+   - Software internationalization and localization: translation, Unicode,
+     Unicode CLDR, Unicode Han Database, CJK in general
    - Technical writing: writing design papers and documenting legacy code,
      both in Korean and English
 
 Skills
-   - Languages: Python, Haskell, C#, Bash, SQL
-   - Frameworks/libraries: Flask, Werkzeug, SQLAlchemy
-   - Databases: PostgreSQL, Redis, SQLite
-   - Et cetera: Neovim, Git, Mercurial
+   - Languages: C#, Haskell, Python, TypeScript, Bash, SQL
+   - Platforms: .NET/Mono, Deno
+   - Databases: PostgreSQL, SQLite, RocksDB
+   - Et cetera: Neovim, Git, Mercurial, Docker
 
 
 Employment
@@ -43,7 +47,7 @@ Employment
    Worked on Libplanet_, an open source library for creating peet-to-peer
    multiplayer online games.
 
-   Used technologies were: C#, .NET Core, Mono, NetMQ_ (ZeroMQ), and Unity.
+   Used technologies were: C#, .NET/Mono, NetMQ_ (ZeroMQ), and Unity.
 
 2014--2018 Spoqa_
    Worked on Dodo_, a tablet-based customer loyalty and marketing platform for
