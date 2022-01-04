@@ -41,7 +41,7 @@ public/style.css: style.css
 
 $(foreach lang,$(languages),public/$(lang)/index.html): public/%/index.html: public/%/resume.txt public/style.css
 	$(PANDOC) \
-		--shift-heading-level-by=2 \
+		--shift-heading-level-by=1 \
 		-f rst+smart \
 		-t html \
 		-s \
@@ -53,9 +53,9 @@ $(foreach lang,$(languages),public/$(lang)/index.html): public/%/index.html: pub
 		's|</head>|<link rel="alternate" href="resume.pdf" hreftype="application/pdf" hreflang="$(shell basename $(shell dirname "$<"))"/></head>|' \
 		$@
 
-$(foreach lang,$(languages),public/$(lang)/resume.pdf): public/%/resume.pdf: public/%/resume.txt public/style.css
+$(foreach lang,$(languages),public/$(lang)/resume.pdf): public/%/resume.pdf: public/%/resume.txt
 	$(PANDOC) \
-		--shift-heading-level-by=2 \
+		--shift-heading-level-by=1 \
 		-f rst+smart \
 		--pdf-engine=xelatex \
 		--variable=mainfont:"Noto Serif CJK KR" \
