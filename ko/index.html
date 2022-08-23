@@ -8,10 +8,15 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="../style.css" />
@@ -26,34 +31,44 @@
 <h2 id="개인-정보">개인 정보</h2>
 <dl>
 <dt>이름</dt>
-<dd><p>홍민희 (洪民憙)</p>
+<dd>
+<p>홍민희 (洪民憙)</p>
 </dd>
 <dt>이메일</dt>
-<dd><p><a href="mailto:hong.minhee@gmail.com">hong.minhee@gmail.com</a></p>
+<dd>
+<p><a href="mailto:hong.minhee@gmail.com">hong.minhee@gmail.com</a></p>
 </dd>
 <dt>웹사이트</dt>
-<dd><p><a href="https://hongminhee.org/">https://hongminhee.org/</a></p>
+<dd>
+<p><a href="https://hongminhee.org/">https://hongminhee.org/</a></p>
 </dd>
 <dt>전화</dt>
-<dd><p>+82 10-3229-7392</p>
+<dd>
+<p>+82 10-3229-7392</p>
 </dd>
 </dl>
 <h2 id="개요">개요</h2>
 <dl>
 <dt>관심사</dt>
-<dd><ul>
+<dd>
+<ul>
 <li>자유·오픈 소스 소프트웨어: 다양한 F/OSS 작성</li>
 <li>탈중앙 시스템: P2P 네트워크, 비잔틴 합의, 블록체인</li>
-<li>네트워크 프로그래밍: 비동기 이벤트 드리븐 서버 및 클라이언트 구현</li>
+<li>네트워크 프로그래밍: 비동기 이벤트 드리븐 서버 및 클라이언트
+구현</li>
 <li>도메인 특화 언어: DSL 설계 및 구현</li>
-<li>함수형 프로그래밍: 불변 자료 구조, 재귀, 결정적 함수, 추상 자료형(ADT), 정적 타입 언어에 익숙함</li>
+<li>함수형 프로그래밍: 불변 자료 구조, 재귀, 결정적 함수, 추상
+자료형(ADT), 정적 타입 언어에 익숙함</li>
 <li>테스트 자동화: 단위 테스트, 프로퍼티 기반 테스트, 통합 테스트</li>
-<li>소프트웨어 국제화 및 현지화: 번역, 유니코드, 유니코드 CLDR, 유니코드 한자 데이터베이스, CJK 전반</li>
-<li>기술 글쓰기: 레거시 코드의 설계서 작성과 문서화 (한국어 및 영어)</li>
+<li>소프트웨어 국제화 및 현지화: 번역, 유니코드, 유니코드 CLDR, 유니코드
+한자 데이터베이스, CJK 전반</li>
+<li>기술 글쓰기: 레거시 코드의 설계서 작성과 문서화 (한국어 및
+영어)</li>
 </ul>
 </dd>
 <dt>기술</dt>
-<dd><ul>
+<dd>
+<ul>
 <li>언어: C#, Haskell, Python, TypeScript, Bash, SQL</li>
 <li>플랫폼: .NET/Mono, Deno</li>
 <li>데이터베이: PostgreSQL, SQLite, RocksDB</li>
@@ -64,45 +79,76 @@
 <h2 id="직무-경력">직무 경력</h2>
 <dl>
 <dt>2018– <a href="https://planetariumhq.com/">Planetarium</a></dt>
-<dd><p>P2P 멀티플레이어 온라인 게임을 만들기 위한 오픈 소스 라이브러리 <a href="#Libplanet">Libplanet</a> 개발.</p>
-<p>사용한 기술: C#, .NET Core, Mono, <a href="https://github.com/zeromq/netmq">NetMQ</a> (ZeroMQ), Unity.</p>
+<dd>
+<p>P2P 멀티플레이어 온라인 게임을 만들기 위한 오픈 소스 라이브러리 <a
+href="#Libplanet">Libplanet</a> 개발.</p>
+<p>사용한 기술: C#, .NET Core, Mono, <a
+href="https://github.com/zeromq/netmq">NetMQ</a> (ZeroMQ), Unity.</p>
 </dd>
 <dt>2014–2018 <a href="https://www.spoqa.com/">Spoqa</a></dt>
-<dd><p>태블릿 기반 오프라인 매장을 위한 멤버십 및 마케팅 솔루션 <a href="http://www.dodopoint.com/">Dodo</a> 개발.</p>
-<p>사용한 기술: Python, Flask, <a href="https://www.sqlalchemy.org/">SQLAlchemy</a>, PostgreSQL.</p>
+<dd>
+<p>태블릿 기반 오프라인 매장을 위한 멤버십 및 마케팅 솔루션 <a
+href="http://www.dodopoint.com/">Dodo</a> 개발.</p>
+<p>사용한 기술: Python, Flask, <a
+href="https://www.sqlalchemy.org/">SQLAlchemy</a>, PostgreSQL.</p>
 </dd>
-<dt>2013 <a href="https://web.archive.org/web/20161118111629/http://beatpacking.com/">The Beatpacking Company</a></dt>
-<dd><p>음악 라디오 앱 Beat 개발. (2016년 네이버에 인수됨.)</p>
-<p>사용한 기술: Java (Android), Python, Flask, <a href="https://www.sqlalchemy.org/">SQLAlchemy</a>, PostgreSQL.</p>
+<dt>2013 <a
+href="https://web.archive.org/web/20161118111629/http://beatpacking.com/">The
+Beatpacking Company</a></dt>
+<dd>
+<p>음악 라디오 앱 Beat 개발. (2016년 네이버에 인수됨.)</p>
+<p>사용한 기술: Java (Android), Python, Flask, <a
+href="https://www.sqlalchemy.org/">SQLAlchemy</a>, PostgreSQL.</p>
 </dd>
 <dt>2012–2013 Crosspop</dt>
-<dd><p>만화 공유 소셜 플랫폼 Crosspop 창업 및 개발.</p>
-<p>사용한 기술: Python, Flask, <a href="https://www.sqlalchemy.org/">SQLAlchemy</a>, PostgreSQL.</p>
+<dd>
+<p>만화 공유 소셜 플랫폼 Crosspop 창업 및 개발.</p>
+<p>사용한 기술: Python, Flask, <a
+href="https://www.sqlalchemy.org/">SQLAlchemy</a>, PostgreSQL.</p>
 </dd>
 <dt>2011–2012 <a href="https://stylesha.re/">StyleShare</a></dt>
-<dd><p>패션 사진 공유 소셜 네트워크 서비스.</p>
+<dd>
+<p>패션 사진 공유 소셜 네트워크 서비스.</p>
 <p>CTO로 근무.</p>
-<p>사용한 기술: Python, Flask, <a href="https://www.sqlalchemy.org/">SQLAlchemy</a>, PostgreSQL.</p>
+<p>사용한 기술: Python, Flask, <a
+href="https://www.sqlalchemy.org/">SQLAlchemy</a>, PostgreSQL.</p>
 </dd>
-<dt>2011 <a href="https://web.archive.org/web/20121024232447/http://www.olaworks.com/">Olaworks</a></dt>
-<dd><p>얼굴 인식 기술 및 서비스에 초점을 둔 컴퓨터 비전 기반의 기업. (2012년 Intel에 인수됨.)</p>
-<p>증강 현실 기술 기반의 소셜 네트워크 서비스 <a href="https://web.archive.org/web/20120621021746/http://www.scansearch.com/">ScanSearch</a> 개발.</p>
+<dt>2011 <a
+href="https://web.archive.org/web/20121024232447/http://www.olaworks.com/">Olaworks</a></dt>
+<dd>
+<p>얼굴 인식 기술 및 서비스에 초점을 둔 컴퓨터 비전 기반의 기업. (2012년
+Intel에 인수됨.)</p>
+<p>증강 현실 기술 기반의 소셜 네트워크 서비스 <a
+href="https://web.archive.org/web/20120621021746/http://www.scansearch.com/">ScanSearch</a>
+개발.</p>
 <p>사용한 기술: PHP, MySQL.</p>
 </dd>
 <dt>2010 <a href="http://www.cdnetworks.com/">CDNetworks</a></dt>
-<dd><p>CDN 서비스 제공.</p>
-<p>약 일만대 이상의 서버 노드를 관리하는 인하우스 규모 가변적 분산 모니터링 시스템 개발.</p>
-<p>사용한 기술: Python, <a href="http://fallabs.com/tokyocabinet/">Tokyo Cabinet</a>, PostgreSQL.</p>
+<dd>
+<p>CDN 서비스 제공.</p>
+<p>약 일만대 이상의 서버 노드를 관리하는 인하우스 규모 가변적 분산
+모니터링 시스템 개발.</p>
+<p>사용한 기술: Python, <a href="http://fallabs.com/tokyocabinet/">Tokyo
+Cabinet</a>, PostgreSQL.</p>
 </dd>
 <dt>2007–2010 <a href="http://kr.nielsen.com/">Nielsen Korea</a></dt>
-<dd><p>글로벌 마케팅 및 광고 리서치 기업 Nielsen Company의 한국 지사.</p>
-<p>인터넷 사용자, 광고, 동영상, UCC, 전자상거래, 이용 행태 등의 측정 및 분석을 제공하는 KoreanClick 개발.</p>
-<p>인터넷 검색 마케팅을 위한 키워드 추천, 키워드 광고 플랫폼 분석, 키워드 게재 측정을 제공하는 Searchian 개발.</p>
+<dd>
+<p>글로벌 마케팅 및 광고 리서치 기업 Nielsen Company의 한국 지사.</p>
+<p>인터넷 사용자, 광고, 동영상, UCC, 전자상거래, 이용 행태 등의 측정 및
+분석을 제공하는 KoreanClick 개발.</p>
+<p>인터넷 검색 마케팅을 위한 키워드 추천, 키워드 광고 플랫폼 분석,
+키워드 게재 측정을 제공하는 Searchian 개발.</p>
 <p>산업 기능 요원으로 대체 병역 복무.</p>
-<p>사용한 기술: PHP, <a href="https://en.wikipedia.org/wiki/Pro*C">Pro*C</a>, Oracle DBMS, Python.</p>
+<p>사용한 기술: PHP, <a
+href="https://en.wikipedia.org/wiki/Pro*C">Pro*C</a>, Oracle DBMS,
+Python.</p>
 </dd>
-<dt>2006–2007 <a href="https://web.archive.org/web/20121024232447/http://www.olaworks.com/">Olaworks</a></dt>
-<dd><p>얼굴 인식 기술 기반의 사진 공유 소셜 네트워크 서비스 <a href="https://web.archive.org/web/20090227052205/http://www.olalog.com/">Olalog</a> 개발.</p>
+<dt>2006–2007 <a
+href="https://web.archive.org/web/20121024232447/http://www.olaworks.com/">Olaworks</a></dt>
+<dd>
+<p>얼굴 인식 기술 기반의 사진 공유 소셜 네트워크 서비스 <a
+href="https://web.archive.org/web/20090227052205/http://www.olalog.com/">Olalog</a>
+개발.</p>
 <p>병역 때문에 퇴사.</p>
 <p>사용한 기술: Ruby, Rails, MySQL.</p>
 </dd>
@@ -110,51 +156,84 @@
 <h2 id="멘토링">멘토링</h2>
 <dl>
 <dt>2010–2014</dt>
-<dd><p><a href="https://web.archive.org/web/20130308083639/http://www.mke.go.kr/">지식 경제부</a> 주관 <a href="http://swmaestro.kr/">소프트웨어 마에스트로</a> 과정 멘토.</p>
+<dd>
+<p><a
+href="https://web.archive.org/web/20130308083639/http://www.mke.go.kr/">지식
+경제부</a> 주관 <a href="http://swmaestro.kr/">소프트웨어 마에스트로</a>
+과정 멘토.</p>
 </dd>
 <dt>2007, 2008</dt>
-<dd><p><a href="https://web.archive.org/web/20140402122713/http://woc.openmaru.com/">Winter of Code</a> 멘토.</p>
+<dd>
+<p><a
+href="https://web.archive.org/web/20140402122713/http://woc.openmaru.com/">Winter
+of Code</a> 멘토.</p>
 </dd>
 </dl>
 <h2 id="학력">학력</h2>
 <dl>
-<dt>2004–2007 <a href="http://www.sunrint.hs.kr/">선인인터넷고등학교</a></dt>
+<dt>2004–2007 <a
+href="http://www.sunrint.hs.kr/">선인인터넷고등학교</a></dt>
 <dd>
+
 </dd>
 </dl>
 <h2 id="자유오픈-소스-소프트웨어">자유·오픈 소스 소프트웨어</h2>
 <div id="Libplanet">
 <dl>
 <dt>2018– <a href="https://libplanet.io/">Libplanet</a></dt>
-<dd><p>중앙 서버 없이 동등한 노드로 이뤄진 P2P 네트워크로 플레이하는 분산 멀티플레이어 온라인 게임을 만드는 .NET 라이브러리. 내부적으로는 블록체인 기술의 많은 요소들(예: 디지털 서명, BFT 합의, 데이터 리플리케이션 등)을 채용.</p>
+<dd>
+<p>중앙 서버 없이 동등한 노드로 이뤄진 P2P 네트워크로 플레이하는 분산
+멀티플레이어 온라인 게임을 만드는 .NET 라이브러리. 내부적으로는 블록체인
+기술의 많은 요소들(예: 디지털 서명, BFT 합의, 데이터 리플리케이션 등)을
+채용.</p>
 <p>C#으로 작성.</p>
 </dd>
 <dt>2016–2018 <a href="https://nirum.org/">Nirum</a></dt>
-<dd><p>마이크로서비스를 위한 인터페이스 기술 언어 컴파일러 및 RPC·분산 객체 프레임워크.</p>
+<dd>
+<p>마이크로서비스를 위한 인터페이스 기술 언어 컴파일러 및 RPC·분산 객체
+프레임워크.</p>
 <p>Haskell로 작성.</p>
 </dd>
 <dt>2014– <a href="https://github.com/spoqa/geofront">Geofront</a></dt>
-<dd><p>SSH로 접속할 서버 및 <code>authorized_keys</code> 목록을 관리해주는 SSH 키 관리 서비스.</p>
+<dd>
+<p>SSH로 접속할 서버 및 <code>authorized_keys</code> 목록을 관리해주는
+SSH 키 관리 서비스.</p>
 <p>Python 3로 작성.</p>
 </dd>
-<dt>2012– <a href="https://github.com/dahlia/libsass-python">libsass-python</a></dt>
-<dd><p><a href="https://sass-lang.com/">Sass</a>/SCSS의 Python 패키지.</p>
+<dt>2012– <a
+href="https://github.com/dahlia/libsass-python">libsass-python</a></dt>
+<dd>
+<p><a href="https://sass-lang.com/">Sass</a>/SCSS의 Python 패키지.</p>
 <p>C와 Python으로 작성</p>
 </dd>
 <dt>2011–2018 <a href="http://wand-py.org/">Wand</a></dt>
-<dd><p><a href="http://www.imagemagick.org/">ImageMagick</a>의 <code>ctypes</code> 기반 Python 바인딩.</p>
+<dd>
+<p><a href="http://www.imagemagick.org/">ImageMagick</a>의
+<code>ctypes</code> 기반 Python 바인딩.</p>
 <p>Python으로 작성.</p>
 </dd>
 </dl>
 </div>
-<p>위 목록은 제 대표적인 프로젝트만 뽑은 것입니다. 모든 오픈 소스 활동은 제 <a href="https://github.com/dahlia">GitHub</a> 및 <a href="https://bitbucket.org/dahlia">Bitbucket</a> 페이지에서 볼 수 있습니다.</p>
+<p>위 목록은 제 대표적인 프로젝트만 뽑은 것입니다. 모든 오픈 소스 활동은
+제 <a href="https://github.com/dahlia">GitHub</a> 및 <a
+href="https://bitbucket.org/dahlia">Bitbucket</a> 페이지에서 볼 수
+있습니다.</p>
 <h2 id="발표">발표</h2>
 <ul>
-<li><a href="https://bit.ly/pyconkr2017-hong">파이썬과 다이아스포라: 25여 연간의 다른 언어들이 파이썬에 준 영향</a>, 파이콘 한국 2017 (기조 연설)</li>
-<li><a href="https://j.mp/pycon-apac-2016-hong">RPC 프레임워크 제작 삽질기</a>, PyCon APAC 2016</li>
-<li><a href="https://j.mp/sphinxcon-2015-hong">All docs lead to Sphinx</a> (영어), SphinxCon JP 2015</li>
-<li><a href="https://speakerdeck.com/minhee/geofront-gaebal-hugi-python-2wa-jagbyeolhago-python-3ro-gaebalhagi">Geofront 개발 후기: Python 2와 작별하고 Python 3 개발하기</a>, 파이콘 한국 2014</li>
+<li><a href="https://bit.ly/pyconkr2017-hong">파이썬과 다이아스포라:
+25여 연간의 다른 언어들이 파이썬에 준 영향</a>, 파이콘 한국 2017 (기조
+연설)</li>
+<li><a href="https://j.mp/pycon-apac-2016-hong">RPC 프레임워크 제작
+삽질기</a>, PyCon APAC 2016</li>
+<li><a href="https://j.mp/sphinxcon-2015-hong">All docs lead to
+Sphinx</a> (영어), SphinxCon JP 2015</li>
+<li><a
+href="https://speakerdeck.com/minhee/geofront-gaebal-hugi-python-2wa-jagbyeolhago-python-3ro-gaebalhagi">Geofront
+개발 후기: Python 2와 작별하고 Python 3 개발하기</a>, 파이콘 한국
+2014</li>
 </ul>
-<p>위 목록은 좋은 반응을 얻은 것만 뽑은 것입니다. 모든 발표 자료는 <a href="https://speakerdeck.com/minhee">Speaker Deck</a>에서 찾을 수 있습니다.</p>
+<p>위 목록은 좋은 반응을 얻은 것만 뽑은 것입니다. 모든 발표 자료는 <a
+href="https://speakerdeck.com/minhee">Speaker Deck</a>에서 찾을 수
+있습니다.</p>
 </body>
 </html>
