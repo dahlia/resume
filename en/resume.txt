@@ -5,7 +5,7 @@ Personal Details
 ----------------
 
 Email
-   hong.minhee@gmail.com
+   hong@minhee.org
 
 Website
    https://hongminhee.org/
@@ -17,8 +17,21 @@ Phone
 Summary
 -------
 
+I first encountered computers and the internet in 1995,
+and started coding in 2000 when I was in middle school.
+In 2014, when I was still in high school,
+I started outsourcing software production on a freelance basis,
+and have worked as a full-time professional software engineer since 2017.
+I've contributed to free/open source software since I was a student.
+I am not only obsessed with technology,
+but also view software development as work and value teamwork and collaboration.
+My strengths are that I am good at synthesizing complex situations,
+and taking conflicting opinions and building consensus,
+which is what my colleagues often tell about me.
+
 Interests
-   - Free and open source softwares: have written many F/OSS
+   - Free/open source softwares: have founded and contributed to many
+     F/OSS projects
    - Decentralized systems: peer-to-peer networking, Byzantine agreements, and
      blockchains
    - Network programming: implementing asynchronous event-driven servers
@@ -34,20 +47,22 @@ Interests
      both in Korean and English
 
 Skills
-   - Languages: C#, Haskell, Python, TypeScript, Bash, SQL
+   - Languages: Korean (mother tongue), English, Japanese
+   - Programming languages: Haskell, C#, Python, TypeScript, Bash, SQL
    - Platforms: .NET/Mono, Deno
    - Databases: PostgreSQL, SQLite, RocksDB
-   - Et cetera: Neovim, Git, Mercurial, Docker
+   - Et cetera: Linux, Git, Mercurial, Docker
 
 
 Employment
 ----------
 
-2018-- Planetarium_
-   Worked on Libplanet_, an open source library for creating peet-to-peer
+2018--2023 Planetarium_
+   Worked on Libplanet_, an open source library for creating peer-to-peer
    multiplayer online games.
 
-   Used technologies were: C#, .NET/Mono, NetMQ_ (ZeroMQ), and Unity.
+   Used technologies were: C#, .NET (Core), Mono, NetMQ_ (ZeroMQ), Unity,
+   and TypeScript.
 
 2014--2018 Spoqa_
    Worked on Dodo_, a tablet-based customer loyalty and marketing platform for
@@ -62,7 +77,7 @@ Employment
    Used technologies were: Java (Android), Python, Flask, SQLAlchemy_,
    and PostgreSQL.
 
-2012--2013 Crosspop
+.. 2012--2013 Crosspop
    Crosspop is a social platform where anyone can enjoy creating comics/mangas,
    share and browse them, and connect with other artists and enthusiasts.
 
@@ -77,7 +92,7 @@ Employment
 
    Used technologies were: Python, Flask, SQLAlchemy_, and PostgreSQL.
 
-2011 Olaworks_
+.. 2011 Olaworks_
    Olaworks was a computer vision based company that focuses on facial
    recognition technology/service.  (Acquired by Intel in 2012.)
 

@@ -11,8 +11,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -36,7 +39,7 @@
 </dd>
 <dt>이메일</dt>
 <dd>
-<p><a href="mailto:hong.minhee@gmail.com">hong.minhee@gmail.com</a></p>
+<p><a href="mailto:hong@minhee.org">hong@minhee.org</a></p>
 </dd>
 <dt>웹사이트</dt>
 <dd>
@@ -48,11 +51,21 @@
 </dd>
 </dl>
 <h2 id="개요">개요</h2>
+<p>1995년에 컴퓨터와 인터넷을 처음 접한 뒤, 중학생이던 2000년부터 코딩을
+시작했습니다. 고등학생이던 2014년부터 프리랜서로 조금씩 소프트웨어 제작
+의뢰를 받기 시작하다가, 2017년부터 전업 소프트웨어 엔지니어로 여러
+기업에서 일해 왔습니다. 자유·오픈 소스 소프트웨어 활동은 학생 때부터
+현재까지 이어오고 있습니다. 단순히 기술에만 천착하는 것이 아니라,
+일로서의 소프트웨어 개발을 인식하며 동료와의 협업을 중요시 합니다.
+복잡한 상황을 잘 정리하고, 여러 대립되는 의견들을 잘 수용하여 합의점을
+도출하는 데에 뛰어나다는 평가를 동료들로부터 듣는 것이 제가 내세울 수
+있는 장점입니다.</p>
 <dl>
 <dt>관심사</dt>
 <dd>
 <ul>
-<li>자유·오픈 소스 소프트웨어: 다양한 F/OSS 작성</li>
+<li>자유·오픈 소스 소프트웨어: 다양한 F/OSS 프로젝트를 만들거나
+기여함</li>
 <li>탈중앙 시스템: P2P 네트워크, 비잔틴 합의, 블록체인</li>
 <li>네트워크 프로그래밍: 비동기 이벤트 드리븐 서버 및 클라이언트
 구현</li>
@@ -69,21 +82,23 @@
 <dt>기술</dt>
 <dd>
 <ul>
-<li>언어: C#, Haskell, Python, TypeScript, Bash, SQL</li>
+<li>언어: 한국어 (모어), 영어, 일본어</li>
+<li>프로그래밍 언어: Haskell, C#, Python, TypeScript, Bash, SQL</li>
 <li>플랫폼: .NET/Mono, Deno</li>
-<li>데이터베이: PostgreSQL, SQLite, RocksDB</li>
-<li>기타: Neovim, Git, Mercurial, Docker</li>
+<li>데이터베이스: PostgreSQL, SQLite, RocksDB</li>
+<li>기타: Linux, Git, Mercurial, Docker</li>
 </ul>
 </dd>
 </dl>
 <h2 id="직무-경력">직무 경력</h2>
 <dl>
-<dt>2018– <a href="https://planetariumhq.com/">Planetarium</a></dt>
+<dt>2018–2023 <a href="https://planetariumhq.com/">Planetarium</a></dt>
 <dd>
 <p>P2P 멀티플레이어 온라인 게임을 만들기 위한 오픈 소스 라이브러리 <a
 href="#Libplanet">Libplanet</a> 개발.</p>
-<p>사용한 기술: C#, .NET Core, Mono, <a
-href="https://github.com/zeromq/netmq">NetMQ</a> (ZeroMQ), Unity.</p>
+<p>사용한 기술: C#, .NET (Core), Mono, <a
+href="https://github.com/zeromq/netmq">NetMQ</a> (ZeroMQ), Unity,
+TypeScript.</p>
 </dd>
 <dt>2014–2018 <a href="https://www.spoqa.com/">Spoqa</a></dt>
 <dd>
@@ -100,12 +115,8 @@ Beatpacking Company</a></dt>
 <p>사용한 기술: Java (Android), Python, Flask, <a
 href="https://www.sqlalchemy.org/">SQLAlchemy</a>, PostgreSQL.</p>
 </dd>
-<dt>2012–2013 Crosspop</dt>
-<dd>
-<p>만화 공유 소셜 플랫폼 Crosspop 창업 및 개발.</p>
-<p>사용한 기술: Python, Flask, <a
-href="https://www.sqlalchemy.org/">SQLAlchemy</a>, PostgreSQL.</p>
-</dd>
+</dl>
+<dl>
 <dt>2011–2012 <a href="https://stylesha.re/">StyleShare</a></dt>
 <dd>
 <p>패션 사진 공유 소셜 네트워크 서비스.</p>
@@ -113,16 +124,8 @@ href="https://www.sqlalchemy.org/">SQLAlchemy</a>, PostgreSQL.</p>
 <p>사용한 기술: Python, Flask, <a
 href="https://www.sqlalchemy.org/">SQLAlchemy</a>, PostgreSQL.</p>
 </dd>
-<dt>2011 <a
-href="https://web.archive.org/web/20121024232447/http://www.olaworks.com/">Olaworks</a></dt>
-<dd>
-<p>얼굴 인식 기술 및 서비스에 초점을 둔 컴퓨터 비전 기반의 기업. (2012년
-Intel에 인수됨.)</p>
-<p>증강 현실 기술 기반의 소셜 네트워크 서비스 <a
-href="https://web.archive.org/web/20120621021746/http://www.scansearch.com/">ScanSearch</a>
-개발.</p>
-<p>사용한 기술: PHP, MySQL.</p>
-</dd>
+</dl>
+<dl>
 <dt>2010 <a href="http://www.cdnetworks.com/">CDNetworks</a></dt>
 <dd>
 <p>CDN 서비스 제공.</p>
@@ -172,7 +175,7 @@ of Code</a> 멘토.</p>
 <h2 id="학력">학력</h2>
 <dl>
 <dt>2004–2007 <a
-href="http://www.sunrint.hs.kr/">선인인터넷고등학교</a></dt>
+href="http://www.sunrint.hs.kr/">선린인터넷고등학교</a></dt>
 <dd>
 
 </dd>

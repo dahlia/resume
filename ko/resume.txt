@@ -8,7 +8,7 @@
    홍민희 (洪民憙)
 
 이메일
-   hong.minhee@gmail.com
+   hong@minhee.org
 
 웹사이트
    https://hongminhee.org/
@@ -20,8 +20,20 @@
 개요
 ----
 
+1995년에 컴퓨터와 인터넷을 처음 접한 뒤,
+중학생이던 2000년부터 코딩을 시작했습니다.
+고등학생이던 2014년부터 프리랜서로
+조금씩 소프트웨어 제작 의뢰를 받기 시작하다가,
+2017년부터 전업 소프트웨어 엔지니어로 여러 기업에서 일해 왔습니다.
+자유·오픈 소스 소프트웨어 활동은 학생 때부터 현재까지 이어오고 있습니다.
+단순히 기술에만 천착하는 것이 아니라,
+일로서의 소프트웨어 개발을 인식하며 동료와의 협업을 중요시 합니다.
+복잡한 상황을 잘 정리하고,
+여러 대립되는 의견들을 잘 수용하여 합의점을 도출하는 데에 뛰어나다는
+평가를 동료들로부터 듣는 것이 제가 내세울 수 있는 장점입니다.
+
 관심사
-   - 자유·오픈 소스 소프트웨어: 다양한 F/OSS 작성
+   - 자유·오픈 소스 소프트웨어: 다양한 F/OSS 프로젝트를 만들거나 기여함
    - 탈중앙 시스템: P2P 네트워크, 비잔틴 합의, 블록체인
    - 네트워크 프로그래밍: 비동기 이벤트 드리븐 서버 및
      클라이언트 구현
@@ -36,20 +48,21 @@
      (한국어 및 영어)
 
 기술
-   - 언어: C#, Haskell, Python, TypeScript, Bash, SQL
+   - 언어: 한국어 (모어), 영어, 일본어
+   - 프로그래밍 언어: Haskell, C#, Python, TypeScript, Bash, SQL
    - 플랫폼: .NET/Mono, Deno
-   - 데이터베이: PostgreSQL, SQLite, RocksDB
-   - 기타: Neovim, Git, Mercurial, Docker
+   - 데이터베이스: PostgreSQL, SQLite, RocksDB
+   - 기타: Linux, Git, Mercurial, Docker
 
 
 직무 경력
 ---------
 
-2018-- Planetarium_
+2018--2023 Planetarium_
    P2P 멀티플레이어 온라인 게임을 만들기 위한 오픈 소스
    라이브러리 Libplanet_ 개발.
 
-   사용한 기술: C#, .NET Core, Mono, NetMQ_ (ZeroMQ), Unity.
+   사용한 기술: C#, .NET (Core), Mono, NetMQ_ (ZeroMQ), Unity, TypeScript.
 
 2014--2018 Spoqa_
    태블릿 기반 오프라인 매장을 위한 멤버십 및 마케팅
@@ -62,7 +75,7 @@
 
    사용한 기술: Java (Android), Python, Flask, SQLAlchemy_, PostgreSQL.
 
-2012--2013 Crosspop
+.. 2012--2013 Crosspop
    만화 공유 소셜 플랫폼 Crosspop 창업 및 개발.
 
    사용한 기술: Python, Flask, SQLAlchemy_, PostgreSQL.
@@ -74,7 +87,7 @@
 
    사용한 기술: Python, Flask, SQLAlchemy_, PostgreSQL.
 
-2011 Olaworks_
+.. 2011 Olaworks_
    얼굴 인식 기술 및 서비스에 초점을 둔 컴퓨터 비전
    기반의 기업.  (2012년 Intel에 인수됨.)
 
@@ -145,10 +158,10 @@
 학력
 ----
 
-2004--2007 `선인인터넷고등학교`_
+2004--2007 `선린인터넷고등학교`_
    ..
 
-.. _선인인터넷고등학교: http://www.sunrint.hs.kr/
+.. _선린인터넷고등학교: http://www.sunrint.hs.kr/
 
 
 자유·오픈 소스 소프트웨어

@@ -11,8 +11,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -32,7 +35,7 @@
 <dl>
 <dt>Email</dt>
 <dd>
-<p><a href="mailto:hong.minhee@gmail.com">hong.minhee@gmail.com</a></p>
+<p><a href="mailto:hong@minhee.org">hong@minhee.org</a></p>
 </dd>
 <dt>Website</dt>
 <dd>
@@ -44,11 +47,22 @@
 </dd>
 </dl>
 <h2 id="summary">Summary</h2>
+<p>I first encountered computers and the internet in 1995, and started
+coding in 2000 when I was in middle school. In 2014, when I was still in
+high school, I started outsourcing software production on a freelance
+basis, and have worked as a full-time professional software engineer
+since 2017. I’ve contributed to free/open source software since I was a
+student. I am not only obsessed with technology, but also view software
+development as work and value teamwork and collaboration. My strengths
+are that I am good at synthesizing complex situations, and taking
+conflicting opinions and building consensus, which is what my colleagues
+often tell about me.</p>
 <dl>
 <dt>Interests</dt>
 <dd>
 <ul>
-<li>Free and open source softwares: have written many F/OSS</li>
+<li>Free/open source softwares: have founded and contributed to many
+F/OSS projects</li>
 <li>Decentralized systems: peer-to-peer networking, Byzantine
 agreements, and blockchains</li>
 <li>Network programming: implementing asynchronous event-driven servers
@@ -68,22 +82,24 @@ code, both in Korean and English</li>
 <dt>Skills</dt>
 <dd>
 <ul>
-<li>Languages: C#, Haskell, Python, TypeScript, Bash, SQL</li>
+<li>Languages: Korean (mother tongue), English, Japanese</li>
+<li>Programming languages: Haskell, C#, Python, TypeScript, Bash,
+SQL</li>
 <li>Platforms: .NET/Mono, Deno</li>
 <li>Databases: PostgreSQL, SQLite, RocksDB</li>
-<li>Et cetera: Neovim, Git, Mercurial, Docker</li>
+<li>Et cetera: Linux, Git, Mercurial, Docker</li>
 </ul>
 </dd>
 </dl>
 <h2 id="employment">Employment</h2>
 <dl>
-<dt>2018– <a href="https://planetariumhq.com/">Planetarium</a></dt>
+<dt>2018–2023 <a href="https://planetariumhq.com/">Planetarium</a></dt>
 <dd>
 <p>Worked on <a href="#Libplanet">Libplanet</a>, an open source library
-for creating peet-to-peer multiplayer online games.</p>
-<p>Used technologies were: C#, .NET/Mono, <a
-href="https://github.com/zeromq/netmq">NetMQ</a> (ZeroMQ), and
-Unity.</p>
+for creating peer-to-peer multiplayer online games.</p>
+<p>Used technologies were: C#, .NET (Core), Mono, <a
+href="https://github.com/zeromq/netmq">NetMQ</a> (ZeroMQ), Unity, and
+TypeScript.</p>
 </dd>
 <dt>2014–2018 <a href="https://www.spoqa.com/">Spoqa</a></dt>
 <dd>
@@ -102,15 +118,8 @@ Beatpacking Company</a></dt>
 <p>Used technologies were: Java (Android), Python, Flask, <a
 href="https://www.sqlalchemy.org/">SQLAlchemy</a>, and PostgreSQL.</p>
 </dd>
-<dt>2012–2013 Crosspop</dt>
-<dd>
-<p>Crosspop is a social platform where anyone can enjoy creating
-comics/mangas, share and browse them, and connect with other artists and
-enthusiasts.</p>
-<p>Self-employed as a founder.</p>
-<p>Used technologies were: Python, Flask, <a
-href="https://www.sqlalchemy.org/">SQLAlchemy</a>, and PostgreSQL.</p>
-</dd>
+</dl>
+<dl>
 <dt>2011–2012 <a href="https://stylesha.re/">StyleShare</a></dt>
 <dd>
 <p>StyleShare is a social network service to share fashion
@@ -119,16 +128,8 @@ photography.</p>
 <p>Used technologies were: Python, Flask, <a
 href="https://www.sqlalchemy.org/">SQLAlchemy</a>, and PostgreSQL.</p>
 </dd>
-<dt>2011 <a
-href="https://web.archive.org/web/20121024232447/http://www.olaworks.com/">Olaworks</a></dt>
-<dd>
-<p>Olaworks was a computer vision based company that focuses on facial
-recognition technology/service. (Acquired by Intel in 2012.)</p>
-<p>Worked on <a
-href="https://web.archive.org/web/20120621021746/http://www.scansearch.com/">ScanSearch</a>,
-a social network service based on augmented reality technology.</p>
-<p>Used technologies were: PHP and MySQL.</p>
-</dd>
+</dl>
+<dl>
 <dt>2010 <a href="http://www.cdnetworks.com/">CDNetworks</a></dt>
 <dd>
 <p>CDNetworks provides content delivery network service.</p>
