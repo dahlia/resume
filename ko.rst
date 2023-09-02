@@ -8,7 +8,7 @@
    洪民憙
 
 이메일
-   hong.minhee@gmail.com
+   hong@minhee.org
 
 웹사이트
    https://hongminhee.org/
@@ -20,8 +20,20 @@
 槪要
 ----
 
+1995年에 컴퓨터와 인터넷을 처음 接한 뒤,
+中學生이던 2000年부터 코딩을 始作했습니다.
+高等學生이던 2014年부터 프리랜서로
+조금씩 소프트웨어 製作 依賴를 받기 始作하다가,
+2017年부터 專業 소프트웨어 엔지니어로 여러 企業에서 일해 왔습니다.
+自由·오픈 소스 소프트웨어 活動은 學生 때부터 現在까지 이어오고 있습니다.
+單純히 技術에만 穿鑿하는 것이 아니라,
+일로서의 소프트웨어 開發을 認識하며 同僚와의 協業을 重要視 합니다.
+複雜한 狀況을 잘 整理하고,
+여러 對立되는 意見들을 잘 受容하여 合意點을 導出하는 데에 뛰어나다는
+評價를 同僚들로부터 듣는 것이 제가 내세울 수 있는 長點입니다.
+
 關心事
-   - 自由·오픈 소스 소프트웨어: 多樣한 F/OSS 作成
+   - 自由·오픈 소스 소프트웨어: 多樣한 F/OSS 프로젝트를 만들거나 寄與함
    - 脫中央 시스템: P2P 네트워크, 비잔틴 합의, 블록체인
    - 네트워크 프로그래밍: 非同期 이벤트 드리븐 서버 및
      클라이언트 具顯
@@ -36,20 +48,21 @@
      (韓國語 및 英語)
 
 技術
-   - 言語: C#, Haskell, Python, TypeScript, Bash, SQL
+   - 言語: 韓國語 (母語), 英語, 日本語
+   - 프로그래밍 言語: Haskell, C#, Python, TypeScript, Bash, SQL
    - 플랫폼: .NET/Mono, Deno
-   - 데이터베이: PostgreSQL, SQLite, RocksDB
-   - 其他: Neovim, Git, Mercurial, Docker
+   - 데이터베이스: PostgreSQL, SQLite, RocksDB
+   - 其他: Linux, Git, Mercurial, Docker
 
 
 職務 經歷
 ---------
 
-2018-- Planetarium_
+2018--2023 Planetarium_
    P2P 멀티플레이어 온라인 게임을 만들기 爲한 오픈 소스
    라이브러리 Libplanet_ 開發.
 
-   使用한 技術: C#, .NET Core, Mono, NetMQ_ (ZeroMQ), Unity.
+   使用한 技術: C#, .NET (Core), Mono, NetMQ_ (ZeroMQ), Unity, TypeScript.
 
 2014--2018 Spoqa_
    태블릿 基盤 오프라인 賣場을 爲한 멤버십 및 마케팅
@@ -62,7 +75,7 @@
 
    使用한 技術: Java (Android), Python, Flask, SQLAlchemy_, PostgreSQL.
 
-2012--2013 Crosspop
+.. 2012--2013 Crosspop
    漫畫 共有 소셜 플랫폼 Crosspop 創業 및 開發.
 
    使用한 技術: Python, Flask, SQLAlchemy_, PostgreSQL.
@@ -74,7 +87,7 @@
 
    使用한 技術: Python, Flask, SQLAlchemy_, PostgreSQL.
 
-2011 Olaworks_
+.. 2011 Olaworks_
    얼굴 認識 技術 및 서비스에 焦點을 둔 컴퓨터 비전
    碁盤의 企業.  (2012年 Intel에 引受됨.)
 
