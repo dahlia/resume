@@ -4,7 +4,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: nikeee/setup-pandoc@v1
     - uses: dahlia/seonbi/setup@main
       with:
@@ -13,6 +13,23 @@ jobs:
         sudo apt-get update -y
         sudo apt-get install -y fonts-noto-cjk texlive-xetex
     - run: make
+    - uses: sand4rt/ftp-deployer@v1.3
+      with:
+        sftp: false
+        port: 21
+        host: ${{ secrets.FTP_HOST }}
+        username: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        remote_folder: ${{ secrets.FTP_REMOTE_DIR }}
+        local_folder: public/
+        exclude: '[".git*"]'
+    - uses: chetan/invalidate-cloudfront-action@v2
+      env:
+        DISTRIBUTION: ${{ secrets.DISTRIBUTION }}
+        PATHS: "/resume/*"
+        AWS_REGION: ${{ secrets.AWS_REGION }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     - uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
