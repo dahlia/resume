@@ -176,9 +176,19 @@ __ http://www.sunrint.hs.kr/
 F/OSS
 -----
 
+2024-- Fedify_
+   ActivityPub_ implementation and federated server framework.
+
+   Written in TypeScript (Deno).
+
+2023-- Dojang_
+   Cross-platform dotfiles manager.
+
+   Written in Haskell.
+
 .. _Libplanet:
 
-2018-- `Libplanet <https://libplanet.io/>`_
+2018--2023 `Libplanet <https://libplanet.io/>`_
    .NET library for creating multiplayer online games in decentralized fashion,
    which means the whole game play occurs on a peer-to-peer network among equal
    nodes rather than an authorized central server.  Under the hood,
@@ -192,13 +202,13 @@ F/OSS
 
    Written in Haskell.
 
-2014-- Geofront_
+2014--2018 Geofront_
    Simple SSH key management service which helps to maintain servers to
    SSH, and ``authorized_keys`` list for them.
 
    Written in Python 3.
 
-2012-- `libsass-python`_
+2012--2018 `libsass-python`_
    Sass_/SCSS for Python.
 
    Written in C & Python.
@@ -212,6 +222,9 @@ F/OSS
 The above list contains only my representative projects.
 My more open source activities can be found in my GitHub_ and Bitbucket_.
 
+.. _Fedify: https://fedify.dev/
+.. _ActivityPub: https://www.w3.org/TR/activitypub/
+.. _Dojang: https://dojang.dev/
 .. _Nirum: https://nirum.org/
 .. _Geofront: https://github.com/spoqa/geofront
 .. _libsass-python: https://github.com/dahlia/libsass-python

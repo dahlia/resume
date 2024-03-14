@@ -167,9 +167,19 @@
 自由·오픈 소스 소프트웨어
 -------------------------
 
+2024-- Fedify_
+   ActivityPub_ 具顯 및 聯合型 서버 프레임워크.
+
+   TypeScript(Deno)로 作成.
+
+2023-- Dojang_
+   크로스플랫폼 닷파일(dotfiles) 管理者.
+
+   Haskell로 作成.
+
 .. _Libplanet:
 
-2018-- `Libplanet <https://libplanet.io/>`_
+2018--2023 `Libplanet <https://libplanet.io/>`_
    中央 서버 없이 同等한 노드로 이뤄진 P2P 네트워크로
    플레이하는 分散 멀티플레이어 온라인 게임을 만드는 .NET
    라이브러리.  內部的으로는 블록체인 技術의 많은
@@ -184,16 +194,16 @@
 
    Haskell로 作成.
 
-2014-- Geofront_
+2014--2018 Geofront_
    SSH로 接續할 서버 및 ``authorized_keys`` 目錄을 관리해주는
    SSH 키 管理 서비스.
 
    Python 3로 作成.
 
-2012-- `libsass-python`_
+2012--2018 `libsass-python`_
    Sass_/SCSS의 Python 패키지.
 
-   C와 Python으로 作成
+   C와 Python으로 作成.
 
 2011--2018 Wand_
    ImageMagick_\ 의 ``ctypes`` 基盤 Python 바인딩.
@@ -204,6 +214,9 @@
 모든 오픈 소스 活動은 제 GitHub_ 및 Bitbucket_ 페이지에서
 볼 수 있습니다.
 
+.. _Fedify: https://fedify.dev/
+.. _ActivityPub: https://www.w3.org/TR/activitypub/
+.. _Dojang: https://dojang.dev/
 .. _Nirum: https://nirum.org/
 .. _Geofront: https://github.com/spoqa/geofront
 .. _libsass-python: https://github.com/dahlia/libsass-python
