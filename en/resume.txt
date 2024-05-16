@@ -19,9 +19,9 @@ Summary
 
 I first encountered computers and the internet in 1995,
 and started coding in 2000 when I was in middle school.
-In 2014, when I was still in high school,
+In 2004, when I was still in high school,
 I started outsourcing software production on a freelance basis,
-and have worked as a full-time professional software engineer since 2017.
+and have worked as a full-time professional software engineer since 2007.
 I've contributed to free/open source software since I was a student.
 I am not only obsessed with technology,
 but also view software development as work and value teamwork and collaboration.
