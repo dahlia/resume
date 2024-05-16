@@ -32,14 +32,14 @@ which is what my colleagues often tell about me.
 Interests
    - Free/open source softwares: have founded and contributed to many
      F/OSS projects
-   - Decentralized systems: peer-to-peer networking, Byzantine agreements, and
-     blockchains
    - Network programming: implementing asynchronous event-driven servers
      and clients
    - Domain-specific languages: designing and implementing DSLs
    - Functional programming: familiar with immutable data structures,
      recursions, deterministic functions, abstract data types,
      and statically typed languages
+   - Decentralized systems: peer-to-peer networking, Byzantine agreements, and
+     blockchains
    - Automated tests: unit tests, property-based tests, and integration tests
    - Software internationalization and localization: translation, Unicode,
      Unicode CLDR, Unicode Han Database, CJK in general
