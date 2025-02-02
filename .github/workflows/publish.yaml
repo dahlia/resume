@@ -13,16 +13,14 @@ jobs:
         sudo apt-get update -y
         sudo apt-get install -y fonts-noto-cjk texlive-xetex
     - run: make
-    - uses: sand4rt/ftp-deployer@v1.3
+    - uses: datanomi/SFTP-Push@v1.2.1
       with:
-        sftp: false
-        port: 21
-        host: ${{ secrets.FTP_HOST }}
-        username: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        remote_folder: ${{ secrets.FTP_REMOTE_DIR }}
-        local_folder: public/
-        exclude: '[".git*"]'
+        username: ${{ secrets.SFTP_USER }}
+        server: ${{ secrets.SFTP_SERVER }}
+        port: ${{ secrets.SFTP_PORT }}
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        local_path: ./public/*
+        remote_path: ${{ secrets.SFTP_REMOTE_PATH }}
     - uses: chetan/invalidate-cloudfront-action@v2
       env:
         DISTRIBUTION: ${{ secrets.DISTRIBUTION }}

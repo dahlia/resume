@@ -10,7 +10,7 @@
 # - gnu-sed
 # - pandoc
 # - <https://github.com/dahlia/seonbi>
-
+SHELL:=$(shell which bash)
 PANDOC:=$(shell which pandoc)
 SEONBI:=$(shell which seonbi)
 
