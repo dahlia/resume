@@ -240,6 +240,8 @@
 發表
 ----
 
+- `야크 셰이빙: 새로운 오픈 소스의 原動力`__,
+  FOSS for All 컨퍼런스 2025 (基調 演說)
 - `파이썬과 다이아스포라: 25餘 年間의 다른 言語들이
   파이썬에 준 影響 <https://bit.ly/pyconkr2017-hong>`_,
   파이콘 韓國 2017 (基調 演說)
@@ -253,5 +255,6 @@
 위 目錄은 좋은 反應을 얻은 것만 뽑은 것입니다.
 모든 發表 資料는 `Speaker Deck`__\ 에서 찾을 수 있습니다.
 
+__ https://docs.google.com/presentation/d/11cAmiOkI2bvqfon7ZX_YvV2OqLoKB_gJHxl7OcfsFJU/edit?usp=sharing
 __ https://speakerdeck.com/minhee/geofront-gaebal-hugi-python-2wa-jagbyeolhago-python-3ro-gaebalhagi
 __ https://speakerdeck.com/minhee

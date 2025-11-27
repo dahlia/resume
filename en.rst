@@ -249,6 +249,7 @@ My more open source activities can be found in my GitHub_ and Bitbucket_.
 Talks
 -----
 
+- `Embracing yak shaving`__ at FOSS for All Conference 2025 (keynote)
 - `Python and Diaspora: How other languages have influenced Python for 25+ years
   <http://bit.ly/pyconkr2017-hong-en>`_ at PyCon Korea 2017 (keynote)
 - `Making story of RPC framework <https://j.mp/pycon-apac-2016-hong>`_
@@ -261,5 +262,6 @@ Talks
 The above list contains only the best received ones.  My more decks can be
 found in my `Speaker Deck`__.
 
+__ https://docs.google.com/presentation/d/1BtUm8A8JuEZXxoovPRUPrvgMDTMf4kBOEBKe64cjrFI/edit?usp=sharing
 __ https://speakerdeck.com/minhee/geofront-gaebal-hugi-python-2wa-jagbyeolhago-python-3ro-gaebalhagi
 __ https://speakerdeck.com/minhee
