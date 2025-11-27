@@ -54,8 +54,15 @@ Skills
    - Et cetera: Linux, Git, Mercurial, Docker
 
 
-Employment
-----------
+Work Experience
+---------------
+
+2024-- Fedify_
+   Founded and maintained Fedify_, an open source ActivityPub_ server framework
+   in TypeScript.
+
+   Used technologies: TypeScript, Node.js, Deno_, Bun_, Cloudflare Workers, and
+   ActivityPub.
 
 2018--2023 Planetarium_
    Worked on Libplanet_, an open source library for creating peer-to-peer
@@ -133,6 +140,10 @@ Employment
 
    Used technologies were: Ruby, Rails, and MySQL.
 
+.. _Fedify: https://fedify.dev/
+.. _ActivityPub: https://www.w3.org/TR/activitypub/
+.. _Deno: https://deno.com/
+.. _Bun: https://bun.sh/
 .. _Planetarium: https://planetariumhq.com/
 .. _NetMQ: https://github.com/zeromq/netmq
 .. _Spoqa: https://www.spoqa.com/
@@ -177,9 +188,11 @@ F/OSS
 -----
 
 2024-- Fedify_
-   ActivityPub_ implementation and federated server framework.
+   ActivityPub_ implementation and federated server framework.  Supports
+   various JavaScript runtime environments including Node.js, Deno_, Bun_, and
+   Cloudflare Workers.
 
-   Written in TypeScript (Deno).
+   Written in TypeScript.
 
 2023-- Dojang_
    Cross-platform dotfiles manager.
@@ -222,8 +235,6 @@ F/OSS
 The above list contains only my representative projects.
 My more open source activities can be found in my GitHub_ and Bitbucket_.
 
-.. _Fedify: https://fedify.dev/
-.. _ActivityPub: https://www.w3.org/TR/activitypub/
 .. _Dojang: https://dojang.dev/
 .. _Nirum: https://nirum.org/
 .. _Geofront: https://github.com/spoqa/geofront

@@ -58,6 +58,13 @@
 職務 經歷
 ---------
 
+2024-- Fedify_
+   TypeScript로 作成된 오픈 소스 ActivityPub_ 서버 프레임워크인 Fedify_ 開發
+   및 維持.
+
+   使用한 技術: TypeScript, Node.js, Deno_, Bun_, Cloudflare Workers,
+   ActivityPub.
+
 2018--2023 Planetarium_
    P2P 멀티플레이어 온라인 게임을 만들기 爲한 오픈 소스
    라이브러리 Libplanet_ 開發.
@@ -125,6 +132,10 @@
 
    使用한 技術: Ruby, Rails, MySQL.
 
+.. _Fedify: https://fedify.dev/
+.. _ActivityPub: https://www.w3.org/TR/activitypub/
+.. _Deno: https://deno.com/
+.. _Bun: https://bun.sh/
 .. _Planetarium: https://planetariumhq.com/
 .. _NetMQ: https://github.com/zeromq/netmq
 .. _Spoqa: https://www.spoqa.com/
@@ -168,9 +179,10 @@
 -------------------------
 
 2024-- Fedify_
-   ActivityPub_ 具顯 및 聯合型 서버 프레임워크.
+   ActivityPub_ 具顯 및 聯合型 서버 프레임워크.  Node.js, Deno_, Bun_,
+   Cloudflare Workers 等 多樣한 JavaScript 런타임 支援.
 
-   TypeScript(Deno)로 作成.
+   TypeScript로 作成.
 
 2023-- Dojang_
    크로스플랫폼 닷파일(dotfiles) 管理者.
@@ -214,8 +226,6 @@
 모든 오픈 소스 活動은 제 GitHub_ 및 Bitbucket_ 페이지에서
 볼 수 있습니다.
 
-.. _Fedify: https://fedify.dev/
-.. _ActivityPub: https://www.w3.org/TR/activitypub/
 .. _Dojang: https://dojang.dev/
 .. _Nirum: https://nirum.org/
 .. _Geofront: https://github.com/spoqa/geofront
