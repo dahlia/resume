@@ -58,6 +58,13 @@
 직무 경력
 ---------
 
+2024-- Fedify_
+   TypeScript로 작성된 오픈 소스 ActivityPub_ 서버 프레임워크인 Fedify_ 개발
+   및 유지.
+
+   사용한 기술: TypeScript, Node.js, Deno_, Bun_, Cloudflare Workers,
+   ActivityPub.
+
 2018--2023 Planetarium_
    P2P 멀티플레이어 온라인 게임을 만들기 위한 오픈 소스
    라이브러리 Libplanet_ 개발.
@@ -125,6 +132,10 @@
 
    사용한 기술: Ruby, Rails, MySQL.
 
+.. _Fedify: https://fedify.dev/
+.. _ActivityPub: https://www.w3.org/TR/activitypub/
+.. _Deno: https://deno.com/
+.. _Bun: https://bun.sh/
 .. _Planetarium: https://planetariumhq.com/
 .. _NetMQ: https://github.com/zeromq/netmq
 .. _Spoqa: https://www.spoqa.com/
@@ -168,9 +179,10 @@
 -------------------------
 
 2024-- Fedify_
-   ActivityPub_ 구현 및 연합형 서버 프레임워크.
+   ActivityPub_ 구현 및 연합형 서버 프레임워크.  Node.js, Deno_, Bun_,
+   Cloudflare Workers 등 다양한 JavaScript 런타임 지원.
 
-   TypeScript(Deno)로 작성.
+   TypeScript로 작성.
 
 2023-- Dojang_
    크로스플랫폼 닷파일(dotfiles) 관리자.
@@ -214,8 +226,6 @@
 모든 오픈 소스 활동은 제 GitHub_ 및 Bitbucket_ 페이지에서
 볼 수 있습니다.
 
-.. _Fedify: https://fedify.dev/
-.. _ActivityPub: https://www.w3.org/TR/activitypub/
 .. _Dojang: https://dojang.dev/
 .. _Nirum: https://nirum.org/
 .. _Geofront: https://github.com/spoqa/geofront
@@ -230,6 +240,8 @@
 발표
 ----
 
+- `야크 셰이빙: 새로운 오픈 소스의 원동력`__,
+  FOSS for All 컨퍼런스 2025 (기조 연설)
 - `파이썬과 다이아스포라: 25여 연간의 다른 언어들이
   파이썬에 준 영향 <https://bit.ly/pyconkr2017-hong>`_,
   파이콘 한국 2017 (기조 연설)
@@ -243,5 +255,6 @@
 위 목록은 좋은 반응을 얻은 것만 뽑은 것입니다.
 모든 발표 자료는 `Speaker Deck`__\ 에서 찾을 수 있습니다.
 
+__ https://docs.google.com/presentation/d/11cAmiOkI2bvqfon7ZX_YvV2OqLoKB_gJHxl7OcfsFJU/edit?usp=sharing
 __ https://speakerdeck.com/minhee/geofront-gaebal-hugi-python-2wa-jagbyeolhago-python-3ro-gaebalhagi
 __ https://speakerdeck.com/minhee
