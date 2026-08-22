@@ -187,6 +187,19 @@ __ http://www.sunrint.hs.kr/
 F/OSS
 -----
 
+2025-- Optique_
+   Type-safe combinatorial CLI parser which composes complex command-line
+   interfaces from small reusable parsers with full type inference.
+
+   Written in TypeScript.
+
+2024-- LogTape_
+   Unobtrusive logging library with zero dependencies.  Supports various
+   JavaScript runtime environments including Node.js, Deno_, Bun_, browsers,
+   and edge functions.
+
+   Written in TypeScript.
+
 2024-- Fedify_
    ActivityPub_ implementation and federated server framework.  Supports
    various JavaScript runtime environments including Node.js, Deno_, Bun_, and
@@ -235,6 +248,8 @@ F/OSS
 The above list contains only my representative projects.
 My more open source activities can be found in my GitHub_ and Bitbucket_.
 
+.. _Optique: https://optique.dev/
+.. _LogTape: https://logtape.org/
 .. _Dojang: https://dojang.dev/
 .. _Nirum: https://nirum.org/
 .. _Geofront: https://github.com/spoqa/geofront

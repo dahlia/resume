@@ -178,6 +178,18 @@
 自由·오픈 소스 소프트웨어
 -------------------------
 
+2025-- Optique_
+   타입 安全한 콤비네이터 方式 CLI 파서.  작고 再使用 可能한 파서들을
+   組合하여 複雜한 命令行 인터페이스를 構成하며, 完全한 타입 推論을 支援.
+
+   TypeScript로 作成.
+
+2024-- LogTape_
+   依存性 없는 로깅 라이브러리.  Node.js, Deno_, Bun_, 브라우저, 에지 펑션 等
+   多樣한 JavaScript 런타임 支援.
+
+   TypeScript로 作成.
+
 2024-- Fedify_
    ActivityPub_ 具顯 및 聯合型 서버 프레임워크.  Node.js, Deno_, Bun_,
    Cloudflare Workers 等 多樣한 JavaScript 런타임 支援.
@@ -226,6 +238,8 @@
 모든 오픈 소스 活動은 제 GitHub_ 및 Bitbucket_ 페이지에서
 볼 수 있습니다.
 
+.. _Optique: https://optique.dev/
+.. _LogTape: https://logtape.org/
 .. _Dojang: https://dojang.dev/
 .. _Nirum: https://nirum.org/
 .. _Geofront: https://github.com/spoqa/geofront
