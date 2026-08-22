@@ -1,0 +1,7 @@
+[tools]
+"github:dahlia/seonbi" = "0.5.0"
+make = "4.4.1"
+pandoc = "3.10.2"
+
+[tasks.build]
+run = "make all"
