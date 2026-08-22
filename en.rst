@@ -264,6 +264,17 @@ My more open source activities can be found in my GitHub_ and Bitbucket_.
 Talks
 -----
 
+- `I just wanted ruby annotations: writing in dead scripts on the living
+  fediverse <https://fediverse-ruby-coscup-2026.hongminhee.codefloe.page/>`_
+  at COSCUP 2026
+- `Fedify: Building ActivityPub servers without the pain
+  <https://hongminhee.codeberg.page/fedify-fosdem-2026/>`_ at FOSDEM 2026
+- `Optique: Replacing CLI validation with TypeScript's type inference
+  <https://hongminhee.codeberg.page/optique-liftio-2025/>`_ (Korean)
+  at liftIO 2025
+- `Nobody's job, everybody's problem: F/OSS in the age of AI
+  <https://hongminhee.codeberg.page/foss-kaist-cs350/>`_
+  at KAIST CS350 Introduction to Software Engineering
 - `Embracing yak shaving`__ at FOSS for All Conference 2025 (keynote)
 - `Python and Diaspora: How other languages have influenced Python for 25+ years
   <http://bit.ly/pyconkr2017-hong-en>`_ at PyCon Korea 2017 (keynote)

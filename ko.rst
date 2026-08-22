@@ -254,6 +254,17 @@
 發表
 ----
 
+- `I just wanted ruby annotations: writing in dead scripts on the living
+  fediverse <https://fediverse-ruby-coscup-2026.hongminhee.codefloe.page/>`_
+  (英語), COSCUP 2026
+- `Fedify: Building ActivityPub servers without the pain
+  <https://hongminhee.codeberg.page/fedify-fosdem-2026/>`_ (英語),
+  FOSDEM 2026
+- `Optique: TypeScript의 타입 推論으로 CLI 有效性 檢査를 代替하기
+  <https://hongminhee.codeberg.page/optique-liftio-2025/>`_, liftIO 2025
+- `Nobody's job, everybody's problem: F/OSS in the age of AI
+  <https://hongminhee.codeberg.page/foss-kaist-cs350/>`_ (英語),
+  KAIST CS350 소프트웨어 工學 槪論
 - `야크 셰이빙: 새로운 오픈 소스의 原動力`__,
   FOSS for All 컨퍼런스 2025 (基調 演說)
 - `파이썬과 다이아스포라: 25餘 年間의 다른 言語들이
