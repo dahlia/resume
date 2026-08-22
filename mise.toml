@@ -1,5 +1,5 @@
 [tools]
-"github:dahlia/seonbi" = "0.5.0"
+"aqua:dahlia/gukhanmun" = "0.2.0"
 make = "4.4.1"
 pandoc = "3.10.2"
 

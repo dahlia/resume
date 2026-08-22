@@ -2,17 +2,17 @@
 # - fonts-noto-cjk
 # - pandoc
 # - texlive-xetex
-# - <https://github.com/dahlia/seonbi>
+# - <https://gukhanmun.org/>
 
 # Prerequisites (macOS):
 # - basictex
 # - homebrew/cask-fonts/font-noto-serif-cjk-kr
 # - gnu-sed
 # - pandoc
-# - <https://github.com/dahlia/seonbi>
+# - <https://gukhanmun.org/>
 SHELL:=$(shell which bash)
 PANDOC:=$(shell which pandoc)
-SEONBI:=$(shell which seonbi)
+GUKHANMUN:=$(shell which gukhanmun)
 
 languages = en ko
 
@@ -33,7 +33,13 @@ $(foreach lang,$(languages),public/$(lang)/resume.txt): public/%/resume.txt: %.r
 
 public/ko/resume.txt: ko.rst
 	mkdir -p public/ko/
-	$(SEONBI) -o public/ko/resume.txt -e utf-8 -A -D -r hangul-only -R "洪民憙:홍민희 (洪民憙)" ko.rst
+	$(GUKHANMUN) \
+		-f text/plain \
+		--require-hanja 洪民憙 \
+		--disambiguation off \
+		--numerals hangul-phonetic \
+		-o public/ko/resume.txt \
+		ko.rst
 
 public/style.css: style.css
 	mkdir -p public/
