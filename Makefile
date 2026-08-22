@@ -7,6 +7,7 @@
 # Prerequisites (macOS):
 # - basictex
 # - homebrew/cask-fonts/font-noto-serif-cjk-kr
+# - homebrew/cask-fonts/font-noto-serif-cjk-jp
 # - gnu-sed
 # - pandoc
 # - <https://gukhanmun.org/>
@@ -14,7 +15,15 @@ SHELL:=$(shell which bash)
 PANDOC:=$(shell which pandoc)
 GUKHANMUN:=$(shell which gukhanmun)
 
-languages = en ko
+languages = en ko ja
+
+mainfont_en = Noto Serif CJK KR
+mainfont_ko = Noto Serif CJK KR
+mainfont_ja = Noto Serif CJK JP
+
+rst_en = rst+smart
+rst_ko = rst+smart
+rst_ja = rst+smart+east_asian_line_breaks
 
 all: public
 
@@ -48,7 +57,7 @@ public/style.css: style.css
 $(foreach lang,$(languages),public/$(lang)/index.html): public/%/index.html: public/%/resume.txt public/style.css
 	$(PANDOC) \
 		--shift-heading-level-by=1 \
-		-f rst+smart \
+		-f $(rst_$*) \
 		-t html \
 		-s \
 		-c ../style.css \
@@ -62,9 +71,9 @@ $(foreach lang,$(languages),public/$(lang)/index.html): public/%/index.html: pub
 $(foreach lang,$(languages),public/$(lang)/resume.pdf): public/%/resume.pdf: public/%/resume.txt
 	$(PANDOC) \
 		--shift-heading-level-by=1 \
-		-f rst+smart \
+		-f $(rst_$*) \
 		--pdf-engine=xelatex \
-		--variable=mainfont:"Noto Serif CJK KR" \
+		--variable=mainfont:"$(mainfont_$*)" \
 		--dpi=192 \
 		-o $@ $<
 

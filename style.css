@@ -1,5 +1,5 @@
 @import
-  url(https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap);
+  url(https://fonts.googleapis.com/css2?family=Noto+Serif+KR&family=Noto+Serif+JP&display=swap);
 
 * {
   font-family: 'Lucida Bright', 'Times New Roman', Times, serif;
@@ -8,6 +8,11 @@
 *:lang(ko) {
   font-family:'Noto Serif CJK KR', 'Noto Serif KR',
                AppleMyungjo, '바탕', Batang, serif;
+  line-height: 1.4;
+}
+*:lang(ja) {
+  font-family:'Noto Serif CJK JP', 'Noto Serif JP',
+               'Hiragino Mincho ProN', 'Yu Mincho', serif;
   line-height: 1.4;
 }
 body {
